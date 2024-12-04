@@ -1,1 +1,31 @@
-<p>cards works!</p>
+<div class="flex flex-wrap gap-4 justify-center">
+  <mat-card class="flex flex-col w-72 shadow-lg" appearance="outlined" *ngFor="let bottle of wine">
+    <mat-card-header class="p-1 text-center">
+      <mat-card-title-group >
+        <mat-card-title>{{bottle.title}}</mat-card-title>
+        <mat-card-subtitle>{{bottle.variety}}</mat-card-subtitle>
+
+      </mat-card-title-group>
+    </mat-card-header>
+    <mat-card-content class="p-2 text-center">
+      <!--<img *ngIf="wineImages[bottle.title]" [src]="wineImages[bottle.title]" alt="{{ bottle.title }}" class="w-52 h-52"/>-->
+     <p>Winery: {{bottle.winery}}</p>
+     <span>${{bottle.price}}</span>
+
+     <button mat-stroked-button class="ml-2">Buy</button>
+
+    </mat-card-content>
+
+    <mat-card-footer class=" p-2 flex flex-wrap justify-center">
+      <mat-chip-set aria-label="wine bottles">
+        <mat-chip>{{bottle.country}}</mat-chip>
+        <mat-chip>{{bottle.province}}</mat-chip>
+
+        <mat-chip class="p-2"><mat-icon class="text-red-500 text-1xl">verified</mat-icon>{{bottle.points}}</mat-chip>
+      </mat-chip-set>
+    </mat-card-footer>
+  </mat-card>
+
+</div>
+
+
