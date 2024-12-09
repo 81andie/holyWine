@@ -1,38 +1,45 @@
+
+
 <div class="flex flex-wrap gap-4 justify-center">
-  <mat-card class="flex flex-col w-72 shadow-lg" appearance="outlined" *ngFor="let bottle of wine">
+
+  @for(item of displayedBottles; track item.title){
+
+
+  <mat-card class="flex flex-col w-72 shadow-lg bg-slate-500" appearance="outlined">
     <mat-card-header class="p-1 text-center">
-      <mat-card-title-group >
-        <mat-card-title>{{bottle.title}}</mat-card-title>
-        <mat-card-subtitle>{{bottle.variety}}</mat-card-subtitle>
+      <mat-card-title-group>
+        <mat-card-title>{{item.title}}</mat-card-title>
+        <mat-card-subtitle>{{item.variety}}</mat-card-subtitle>
 
       </mat-card-title-group>
     </mat-card-header>
 
     <div class="text-center flex flex-row justify-center">
       <mat-card-content class="p-2 ">
-       
-        <p>Winery: {{bottle.winery}}</p>
+
+        <p>Winery: {{item.winery}}</p>
 
 
-       </mat-card-content>
+      </mat-card-content>
 
-       <mat-card-footer class=" p-1 flex flex-wrap justify-center">
-         <mat-chip-set aria-label="wine bottles">
-           <mat-chip>{{bottle.country}}</mat-chip>
-           <mat-chip>{{bottle.province}}</mat-chip>
+      <mat-card-footer class=" p-1 flex flex-wrap justify-center">
+        <mat-chip-set aria-label="wine bottles">
+          <mat-chip>{{item.country}}</mat-chip>
+          <mat-chip>{{item.province}}</mat-chip>
 
-           <mat-chip class="p-2"><mat-icon class="text-red-500 text-1xl">verified</mat-icon>{{bottle.points}}</mat-chip>
-         </mat-chip-set>
+          <mat-chip class="p-2"><mat-icon class="text-red-500 text-1xl">verified</mat-icon>{{item.points}}</mat-chip>
+        </mat-chip-set>
 
-         <span>${{bottle.price}}</span>
+        <span>${{item.price}}</span>
 
-         <button mat-stroked-button class="ml-2">Buy</button>
-       </mat-card-footer>
+        <button mat-stroked-button class="ml-2">Buy</button>
+      </mat-card-footer>
 
     </div>
 
   </mat-card>
 
-</div>
 
+  }
 
+  <button (click)="getBottlesAll()">Cargar más</button>

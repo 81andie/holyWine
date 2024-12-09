@@ -1,4 +1,5 @@
 export interface Wine {
+[x: string]: any;
   points:                number;
   title:                 string;
   description:           string;

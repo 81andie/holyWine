@@ -1,12 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { WineCardService } from '../../services/wine-card-service';
 import { Wine } from '../../interfaces/winecard.interface';
 import { CommonModule } from '@angular/common';
-import { ChangeDetectionStrategy } from '@angular/core';
+
 import { MatCardModule } from '@angular/material/card';
 import {MatChipsModule} from '@angular/material/chips';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { Subscription } from 'rxjs';
 
 
 
@@ -17,33 +18,42 @@ import { MatButtonModule } from '@angular/material/button';
   templateUrl: './cards.component.html',
   styleUrl: './cards.component.css'
 })
-export class CardsComponent implements OnInit {
+export class CardsComponent implements OnInit, OnDestroy{
 
-  public wine: Wine[] = [];
-  public wineTitles: string[]=[];
+  public wines: Wine[] = [];
+  private getBottlesDestroy!: Subscription;
+
+  displayedBottles: any[] = [];
+  limit = 150;
+  offset = 0;
 
 
 
 
-  constructor(private wineService: WineCardService) {
+  constructor(private wineService: WineCardService) {}
+  ngOnDestroy(): void {
+    this.getBottlesDestroy?.unsubscribe();
 
   }
+
+
   ngOnInit(): void {
     this.getBottlesAll();
+
 
   }
 
   getBottlesAll() {
-    this.wineService.getAllBottles().subscribe(data => {
-      this.wine = data.slice(0,100);
-     // console.log(this.wine);
-      this.wineTitles= this.wine.map((bottle:{title:string})=> bottle.title)
-     // console.log(this.wineTitles)
+    this.getBottlesDestroy= this.wineService.getAllBottles(this.limit, this.offset).subscribe({
+      next: (data) => {
+        this.displayedBottles = [...this.displayedBottles, ...data];
+        this.offset += this.limit; // Actualiza el offset para la siguiente consulta
+      },
+      error: (error) => console.error('Error al cargar más datos', error)
 
     })
   }
 
-  
-
-
 }
+
+

@@ -1,57 +1,65 @@
 <form class="example-form flex flex-row justify-center p-3" (ngSubmit)="filteredWines()">
   <mat-form-field class="w-10/12">
     <mat-label>Busque aquí la marca de vino que quiera encontrar</mat-label>
-    <input matInput placeholder="Cabernet Saugvignon" value="Wine" [formControl]="myInput" >
+    <input matInput placeholder="Cabernet Saugvignon" value="Wine" [formControl]="myInput">
     <button type="submit">Enviar</button>
   </mat-form-field>
 </form>
 
 <div class="flex flex-wrap gap-4 justify-center">
 
-  @for(item of wines; track item.title){
-    <mat-card class="flex flex-col w-72 shadow-lg bg-slate-500" appearance="outlined" >
-      <mat-card-header class="p-1 text-center">
-        <mat-card-title-group >
-          <mat-card-title>{{item.title}}</mat-card-title>
-          <mat-card-subtitle>{{item.variety}}</mat-card-subtitle>
 
-        </mat-card-title-group>
-      </mat-card-header>
-
-      <div class="text-center flex flex-row justify-center">
-        <mat-card-content class="p-2 ">
-
-          <p>Winery: {{item.winery}}</p>
+  @for(item of wines; track item; let idx=$index, counter=$count){
 
 
-         </mat-card-content>
 
-         <mat-card-footer class=" p-1 flex flex-wrap justify-center">
-           <mat-chip-set aria-label="wine bottles">
-             <mat-chip>{{item.country}}</mat-chip>
-             <mat-chip>{{item.province}}</mat-chip>
+  <mat-card class="flex flex-col w-72 shadow-lg bg-slate-500" appearance="outlined">
+    <mat-card-header class="p-1 text-center">
 
-             <mat-chip class="p-2"><mat-icon class="text-red-500 text-1xl">verified</mat-icon>{{item.points}}</mat-chip>
-           </mat-chip-set>
+      <mat-card-title-group>
 
-           <span>${{item.price}}</span>
+        <mat-card-subtitle>Producto {{idx +1}} de {{counter}} productos</mat-card-subtitle>
+        <mat-card-title>{{item.title}}</mat-card-title>
+        <mat-card-subtitle>{{item.variety}}</mat-card-subtitle>
 
-           <button mat-stroked-button class="ml-2">Buy</button>
-         </mat-card-footer>
+      </mat-card-title-group>
+    </mat-card-header>
 
-      </div>
+    <div class="text-center flex flex-row justify-center">
+      <mat-card-content class="p-2 ">
 
-    </mat-card>
+        <p>Winery: {{item.winery}}</p>
+
+
+      </mat-card-content>
+
+      <mat-card-footer class=" p-1 flex flex-wrap justify-center">
+        <mat-chip-set aria-label="wine bottles">
+          <mat-chip>{{item.country}}</mat-chip>
+          <mat-chip>{{item.province}}</mat-chip>
+
+          <mat-chip class="p-2"><mat-icon class="text-red-500 text-1xl">verified</mat-icon>{{item.points}}</mat-chip>
+        </mat-chip-set>
+
+        <span>${{item.price}}</span>
+
+        <button mat-stroked-button class="ml-2">Buy</button>
+      </mat-card-footer>
+
+    </div>
+
+  </mat-card>
 
 
 
   }@empty {
-    <p>No hay nada en la busqueda</p>
-    }
+  <p>Haz tu busqueda en el buscador</p>
+   <app-cards></app-cards>
 
 
 
+}
 
-
+<button (click)="getBottlesAll()">Cargar más</button>
 
 
