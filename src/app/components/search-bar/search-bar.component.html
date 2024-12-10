@@ -1,6 +1,6 @@
-<form class="example-form flex flex-row justify-center p-3" (ngSubmit)="filteredWines()">
-  <mat-form-field class="w-10/12">
-    <mat-label>Busque aquí la marca de vino que quiera encontrar</mat-label>
+<form class="example-form flex flex-row justify-center  p-1" (ngSubmit)="filteredWines()">
+  <mat-form-field class=" w-full md:w-10/12 ">
+    <mat-label>Busque aquí la marca de vino...</mat-label>
     <input matInput placeholder="Cabernet Saugvignon" value="Wine" [formControl]="myInput">
     <button type="submit">Enviar</button>
   </mat-form-field>
@@ -10,7 +10,6 @@
 
 
   @for(item of wines; track item; let idx=$index, counter=$count){
-
 
 
   <mat-card class="flex flex-col w-72 shadow-lg bg-slate-500" appearance="outlined">
@@ -54,12 +53,12 @@
 
   }@empty {
   <p>Haz tu busqueda en el buscador</p>
-   <app-cards></app-cards>
+<app-cards></app-cards>
 
 
 
 }
 
-<button (click)="getBottlesAll()">Cargar más</button>
+
 
 

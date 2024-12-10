@@ -1,0 +1,24 @@
+.logo{
+  opacity: 0.5;
+  animation-name: aparecer;
+  animation-duration: 3s; /* Duración de la animación */
+  animation-timing-function: ease-in;
+}
+.logo1{
+  opacity: 0.5;
+}
+
+@keyframes aparecer{
+
+  from {
+    width: 300px;
+
+    opacity: 0.3;
+    filter:drop-shadow(2px 5px rgb(250, 246, 2))
+  }
+  to {
+    opacity: 1;
+  }
+
+
+}
