@@ -1,45 +1,68 @@
-
-
-<div class="flex flex-wrap gap-4 justify-center mt-30">
+<div class="flex flex-wrap gap-5 justify-center mt-30 ">
 
   @for(item of displayedBottles; track item.title){
 
 
-  <mat-card class="flex flex-col w-72 shadow-lg bg-slate-500" appearance="outlined">
-    <mat-card-header class="p-1 text-center">
+  <mat-card class="flex flex-col w-11/12 md:w-2/5 h-auto bg-gradient-to-r from-red-50 to-rose-50" appearance="outlined">
+    <mat-card-header class="text-left  w-full">
       <mat-card-title-group>
-        <mat-card-title>{{item.title}}</mat-card-title>
-        <mat-card-subtitle>{{item.variety}}</mat-card-subtitle>
-
+        <mat-card-title>
+          <p class="text-lg font-extrabold text-rose-700">{{item.title}}</p>
+        </mat-card-title>
+        <mat-card-subtitle>
+          <p class="text-xs">{{item.variety}}</p>
+        </mat-card-subtitle>
       </mat-card-title-group>
     </mat-card-header>
 
-    <div class="text-center flex flex-row justify-center">
-      <mat-card-content class="p-2 ">
 
-        <p>Winery: {{item.winery}}</p>
+    <div class="flex flex-row justify-evenly">
+      <mat-card-content >
 
+
+           <p class="text-xs"><strong> Origin:</strong> {{item.country}}</p>
+           <p class="text-xs" ><strong> Province:</strong> {{item.province}}</p>
+           <p class="text-xs"><strong> Vinery:</strong> {{item.winery}}</p>
 
       </mat-card-content>
 
-      <mat-card-footer class=" p-1 flex flex-wrap justify-center">
-        <mat-chip-set aria-label="wine bottles">
-          <mat-chip>{{item.country}}</mat-chip>
-          <mat-chip>{{item.province}}</mat-chip>
+      <mat-card-content >
 
-          <mat-chip class="p-2"><mat-icon class="text-red-500 text-1xl">verified</mat-icon>{{item.points}}</mat-chip>
-        </mat-chip-set>
+        <div class="h-16 w-16 bg-red-100 rounded-full">
+         <p class="text-center p-1 text-xl">{{item.points}}</p>
+         <p class="text-xs text-center">points</p>
+        </div>
 
-        <span>${{item.price}}</span>
+      </mat-card-content>
 
-        <button mat-stroked-button class="ml-2">Buy</button>
-      </mat-card-footer>
+      <mat-card-content>
+
+        <div class="h-16 w-16 bg-violet-100 rounded-full">
+         <p class="text-center p-1 text-xl">${{item.price}}</p>
+         <p class="text-xs text-center">Est.</p>
+        </div>
+
+      </mat-card-content>
 
     </div>
 
-  </mat-card>
+    <mat-card-footer>
 
+       <p class="text-left p-4 text-xs">{{item.description}}</p>
+
+       <mat-card-actions>
+        <button mat-button (click)="counterLikes(item)">LIKE <mat-icon>favorite</mat-icon>{{item.likes}} </button>
+        <button mat-button>SHARE<mat-icon>share</mat-icon> </button>
+      </mat-card-actions>
+
+    </mat-card-footer>
+
+  </mat-card>
 
   }
 
-  <button (click)="getBottlesAll()">Cargar más</button>
+</div>
+
+<div class="flex flex-row justify-center mt-5 mb-5">
+  <button mat-fab extended (click)="getBottlesAll()" class="w-20">Cargar más</button>
+</div>

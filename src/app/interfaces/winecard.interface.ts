@@ -13,6 +13,8 @@ export interface Wine {
   province:              null | string;
   country:               Country | null;
   winery:                string;
+  likes: number;
+
 }
 
 export enum Country {
