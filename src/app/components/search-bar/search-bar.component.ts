@@ -19,6 +19,7 @@ import { Subscription } from 'rxjs';
   styleUrl: './search-bar.component.css'
 })
 export class SearchBarComponent implements OnInit, OnDestroy {
+
   constructor(private wineService: WineCardService) { }
 
 
@@ -55,18 +56,29 @@ export class SearchBarComponent implements OnInit, OnDestroy {
     //console.log(this.wineTitles);
 
     let searchBar = this.myInput.value.toLowerCase();
-    let filtered = this.wine.filter((wineFiltered) => {
 
-      const titleLower = wineFiltered.title.toLowerCase();
-      let matchs = titleLower.includes(searchBar) && searchBar.length >= 3;
-      return matchs;
+    if(searchBar.length >= 3){
+      let filtered = this.wine.filter((wineFiltered) => {
+        const titleLower = wineFiltered.title.toLowerCase();
+        let matchs = titleLower.includes(searchBar);
+        return matchs;
 
-    })
-    this.wines = filtered;
+      })
+      this.wines = filtered;
+    }
 
-    console.log(this.wines)
+
+
+
   }
 
+
+  resetSearchInput() {
+     if(this.wines.length){
+      this.myInput.reset('')
+      this.wines = [];
+     }
+    }
 
 
 

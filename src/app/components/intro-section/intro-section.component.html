@@ -1,21 +1,31 @@
-<div class="absolute w-full">
-  <img src="vinedos-california-santa-barbara_181624-7592.jpg" class="w-full h-64 object-cover ">
-</div>
 
-  @defer (on interaction; on timer(1.5s)) {
+
+
+
+  @defer (on interaction; on timer(2.9s)) {
+
     <div class="absolute w-full">
-      <img src="vinedos-california-santa-barbara_181624-7592.jpg" class="w-full h-64 object-cover ">
+      <img src="vinedos-california-santa-barbara_181624-7592.jpg" class="w-full h-80 object-cover ">
     </div>
 
-    <div class="relative flex flex-row justify-center justify-items-center w-10/12 m-auto p-2">
-        <img src="logoremove.png" class="w-72 items-center logo">
+    <div class="relative flex flex-row justify-center justify-items-center w-10/12 m-auto ">
+        <img src="logoremove.png" class="w-60 items-center">
 
   </div>
   <app-search-bar></app-search-bar>
     } @placeholder {
-      <div class="relative">
-        <mat-progress-bar mode="indeterminate">Cargando</mat-progress-bar>
-        <p class="text-red-800 bg-neutral-700text-sm text-center font-extralight ">Bienvenido a nuestra base de datos...</p>
+      <div class="absolute flex flex-col justify-items-stretch w-full h-full">
+
+        <div class="relative flex flex-row justify-center justify-items-center w-10/12 m-auto ">
+          <img src="logoremove.png" class="w-60 items-center logo1">
+
+    </div>
+
+        <div class="relative w-full h-full ">
+          <mat-progress-bar mode="indeterminate" class="items-center">Cargando</mat-progress-bar>
+          <p class="text-red-800  text-sm text-center font-extralight ">Bienvenido a nuestra base de datos...</p>
+        </div>
+
        </div>
     }
 
