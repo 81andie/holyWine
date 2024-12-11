@@ -24,7 +24,7 @@ export class CardsComponent implements OnInit, OnDestroy{
   private getBottlesDestroy!: Subscription;
 
   displayedBottles: any[] = [];
-  limit = 50;
+  limit = 20;
   offset = 0;
 
 
