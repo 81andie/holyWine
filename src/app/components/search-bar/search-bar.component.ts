@@ -24,15 +24,11 @@ export class SearchBarComponent implements OnInit, OnDestroy {
 
 
   ngOnDestroy(): void {
-   this.getBottlesDestroy?.unsubscribe();
+    this.getBottlesDestroy?.unsubscribe();
   }
 
   ngOnInit(): void {
-
-    this.filteredWines();
     this.ListBootleSearch();
-
-
   }
 
   searchTerm: string = '';
@@ -50,22 +46,32 @@ export class SearchBarComponent implements OnInit, OnDestroy {
 
 
 
-  filteredWines(){
+  filteredWines(event: KeyboardEvent): void {
+
     //console.log(this.myInput.value);
     //console.log(this.wine)
     //console.log(this.wineTitles);
 
-    let searchBar = this.myInput.value.toLowerCase();
+    if (event.key === 'Enter') {
+      const searchBar = this.myInput.value.trim().toLowerCase();
 
-    if(searchBar.length >= 3){
-      let filtered = this.wine.filter((wineFiltered) => {
-        const titleLower = wineFiltered.title.toLowerCase();
-        let matchs = titleLower.includes(searchBar);
-        return matchs;
+      if (searchBar.length) {
+        let filtered = this.wine.filter((wineFiltered) => {
+          const titleLower = wineFiltered.title.toLowerCase();
+          let matchs = titleLower.includes(searchBar);
+          return matchs;
 
-      })
-      this.wines = filtered;
+
+        })
+        this.wines = filtered;
+        this.myInput.reset('')
+      }
+
+
     }
+
+
+
 
 
 
@@ -74,11 +80,11 @@ export class SearchBarComponent implements OnInit, OnDestroy {
 
 
   resetSearchInput() {
-     if(this.wines.length){
+    if (this.wines.length) {
       this.myInput.reset('')
       this.wines = [];
-     }
     }
+  }
 
 
 
@@ -86,7 +92,7 @@ export class SearchBarComponent implements OnInit, OnDestroy {
 
 
   getBottlesAll() {
-    this.getBottlesDestroy= this.wineService.getAllBottles(this.limit, this.offset).subscribe({
+    this.getBottlesDestroy = this.wineService.getAllBottles(this.limit, this.offset).subscribe({
       next: (data) => {
 
         this.displayedBottles = [...this.displayedBottles, ...data];
@@ -99,15 +105,15 @@ export class SearchBarComponent implements OnInit, OnDestroy {
 
 
 
-  ListBootleSearch(){
+  ListBootleSearch() {
     this.wineService.getAllBottles1().subscribe(data => {
       this.wine = data;
       // console.log(this.wine);
-      this.wineTitles = this.wine.map((bottle: { title: string }) => bottle.title)
-      //console.log(this.wineTitles)
+      this.wineTitles = this.wine.map((bottle: { title: string }) => bottle.title.toLocaleLowerCase())
+      // console.log(this.wineTitles)
     })
   }
-  }
+}
 
 
 

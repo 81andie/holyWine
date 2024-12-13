@@ -1,55 +1,79 @@
-<form class="example-form flex flex-row justify-center  p-1" (ngSubmit)="filteredWines()">
+<form class="example-form flex flex-row justify-center  p-1" >
   <mat-form-field class=" w-full md:w-10/12 ">
+
     <mat-label>Busque aquí la marca de vino...</mat-label>
-    <input matInput placeholder="Cabernet Saugvignon" value="Wine" [formControl]="myInput">
-    <button type="submit">Enviar</button>
+    <div class="flex">
+      <input matInput placeholder="Cabernet Saugvignon" value="Wine" [formControl]="myInput" (keyup)="filteredWines($event)">
+      <button mat-raised-button (click)="resetSearchInput()" class="text-xs w-28"><mat-icon>delete</mat-icon>Borrar</button>
+    </div>
+
   </mat-form-field>
 </form>
 
 <div class="flex flex-wrap gap-4 justify-center">
 
-  <button (click)="resetSearchInput()">Borrar búsqueda</button>
 
 
   @for(item of wines; track item; let idx=$index, counter=$count){
+    <mat-card class="flex flex-col w-11/12 md:w-2/5 h-auto bg-gradient-to-r from-pink-100 to-slate-50 shadow-inner border-none" appearance="outlined">
+      <mat-card-header class="text-left  w-full">
+        <mat-card-title-group>
+          <mat-card-title>
+            <p class="text-lg font-extrabold text-violet-800">{{item.title}}</p>
+          </mat-card-title>
+          <mat-card-subtitle>
+            <p class="text-xs">{{item.variety}}</p>
+          </mat-card-subtitle>
+        </mat-card-title-group>
+      </mat-card-header>
 
 
-  <mat-card class="flex flex-col w-72 shadow-lg bg-slate-500" appearance="outlined">
-    <mat-card-header class="p-1 text-center">
-
-      <mat-card-title-group>
-
-        <mat-card-subtitle>Producto {{idx +1}} de {{counter}} productos</mat-card-subtitle>
-        <mat-card-title>{{item.title}}</mat-card-title>
-        <mat-card-subtitle>{{item.variety}}</mat-card-subtitle>
-
-      </mat-card-title-group>
-    </mat-card-header>
-
-    <div class="text-center flex flex-row justify-center">
-      <mat-card-content class="p-2 ">
-
-        <p>Winery: {{item.winery}}</p>
+      <div class="flex flex-row justify-evenly">
+        <mat-card-content >
 
 
-      </mat-card-content>
+             <p class="text-xs"><strong> Origin:</strong> {{item.country}}</p>
+             <p class="text-xs" ><strong> Province:</strong> {{item.province}}</p>
+             <p class="text-xs"><strong> Vinery:</strong> {{item.winery}}</p>
 
-      <mat-card-footer class=" p-1 flex flex-wrap justify-center">
-        <mat-chip-set aria-label="wine bottles">
-          <mat-chip>{{item.country}}</mat-chip>
-          <mat-chip>{{item.province}}</mat-chip>
+        </mat-card-content>
 
-          <mat-chip class="p-2"><mat-icon class="text-red-500 text-1xl">verified</mat-icon>{{item.points}}</mat-chip>
-        </mat-chip-set>
+        <mat-card-content >
 
-        <span>${{item.price}}</span>
+          <div class="h-16 w-16 bg-red-100 rounded-full">
+           <p class="text-center p-1 text-xl">{{item.points}}</p>
+           <p class="text-xs text-center">points</p>
+          </div>
 
-        <button mat-stroked-button class="ml-2">Buy</button>
+        </mat-card-content>
+
+        <mat-card-content>
+
+          <div class="h-16 w-16 bg-violet-100 rounded-full">
+           <p class="text-center p-1 text-xl">${{item.price}}</p>
+           <p class="text-xs text-center">Est.</p>
+          </div>
+
+        </mat-card-content>
+
+      </div>
+
+      <mat-card-footer>
+
+         <p class="text-left p-4 text-xs md:text-sm">{{item.description}}</p>
+
+         <mat-card-actions>
+
+          <button mat-button>SHARE<mat-icon>share</mat-icon> </button>
+        </mat-card-actions>
+
       </mat-card-footer>
 
-    </div>
+    </mat-card>
 
-  </mat-card>
+
+
+
 
 
 
