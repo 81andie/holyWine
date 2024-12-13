@@ -64,10 +64,11 @@ export class SearchBarComponent implements OnInit, OnDestroy {
 
         })
         this.wines = filtered;
-        this.myInput.reset('')
+
       }
 
-
+      this.myInput.reset('')
+      
     }
 
 
