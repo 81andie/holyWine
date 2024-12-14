@@ -3,7 +3,7 @@
   @for(item of displayedBottles; track item.title){
 
 
-  <mat-card class="flex flex-col w-11/12 md:w-2/5 h-auto bg-gradient-to-r from-pink-100 to-slate-50 shadow-inner border-none" appearance="outlined">
+  <mat-card class="flex flex-col w-11/12 md:w-2/5 h-auto bg-gradient-to-r from-slate-200 to-slate-50 shadow-inner border-none" appearance="outlined">
     <mat-card-header class="text-left  w-full">
       <mat-card-title-group>
         <mat-card-title>
@@ -62,7 +62,7 @@
     <button mat-fab extended (click)="getBottlesAll()" class="w-20 ml-4" [hidden]="isVisible" >Cargar más</button>
 
     <div class="float-end" >
-      <button mat-fab extended (click)="scrollTop()" class="ml-5" [hidden]="isVisible"><mat-icon>arrow_upward</mat-icon>Scrooll</button>
+      <button mat-fab (click)="scrollTop()" class="ml-5" [hidden]="isVisible"><mat-icon>arrow_upward</mat-icon>Scrooll</button>
     </div>
 
   </div>
