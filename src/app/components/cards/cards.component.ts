@@ -20,11 +20,12 @@ import { Subscription } from 'rxjs';
 })
 export class CardsComponent implements OnInit, OnDestroy{
 
+  
   public wines: Wine[] = [];
   private getBottlesDestroy!: Subscription;
 
   displayedBottles: any[] = [];
-  limit = 20;
+  limit = 10;
   offset = 0;
 
 
