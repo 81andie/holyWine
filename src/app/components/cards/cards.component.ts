@@ -20,7 +20,7 @@ import { Subscription } from 'rxjs';
 })
 export class CardsComponent implements OnInit, OnDestroy{
 
-  
+  public isVisible:boolean = false;
   public wines: Wine[] = [];
   private getBottlesDestroy!: Subscription;
 
@@ -33,11 +33,13 @@ export class CardsComponent implements OnInit, OnDestroy{
   ngOnDestroy(): void {
     this.getBottlesDestroy?.unsubscribe();
 
+
   }
 
 
   ngOnInit(): void {
     this.getBottlesAll();
+    this.visibilityButtons();
 
   }
 
@@ -54,6 +56,12 @@ export class CardsComponent implements OnInit, OnDestroy{
 
  scrollTop(){
   document.documentElement.scrollTop = 0;
+ }
+
+ visibilityButtons(){
+  if(this.displayedBottles.length){
+    this.isVisible = true;
+  }
  }
 
 }
