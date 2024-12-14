@@ -25,6 +25,7 @@ export class SearchBarComponent implements OnInit, OnDestroy {
 
   ngOnDestroy(): void {
     this.getBottlesDestroy?.unsubscribe();
+    this.getBottlesDestroy1?.unsubscribe();
   }
 
   ngOnInit(): void {
@@ -43,6 +44,7 @@ export class SearchBarComponent implements OnInit, OnDestroy {
   offset = 0;
 
   private getBottlesDestroy!: Subscription;
+  private getBottlesDestroy1!: Subscription;
 
 
 
@@ -82,9 +84,6 @@ export class SearchBarComponent implements OnInit, OnDestroy {
 
 
 
-
-
-
   getBottlesAll() {
     this.getBottlesDestroy = this.wineService.getAllBottles(this.limit, this.offset).subscribe({
       next: (data) => {
@@ -100,7 +99,7 @@ export class SearchBarComponent implements OnInit, OnDestroy {
 
 
   ListBootleSearch() {
-    this.wineService.getAllBottles1().subscribe(data => {
+    this.getBottlesDestroy1 = this.wineService.getAllBottles1().subscribe(data => {
       this.wine = data;
       // console.log(this.wine);
       // this.wineTitles = this.wine.map((bottle: { title: string }) => bottle.title.toLocaleLowerCase())
