@@ -1,4 +1,4 @@
-<div class="flex flex-wrap gap-5 justify-center mt-30">
+<div class="flex flex-wrap gap-5 justify-center mt-30" >
 
   @for(item of displayedBottles; track item.title){
 
@@ -52,19 +52,20 @@
     </mat-card-footer>
 
   </mat-card>
+
+
   }
 
 
-  <div class="float-right" >
-    <button mat-fab extended (click)="scrollTop()" class="w-10 h-3">^</button>
-  </div>
 
   <div class="flex flex-row justify-center mt-5 mb-5">
-    <button mat-fab extended (click)="getBottlesAll()" class="w-20 ml-4">Cargar más</button>
+    <button mat-fab extended (click)="getBottlesAll()" class="w-20 ml-4" [hidden]="isVisible" >Cargar más</button>
+
+    <div class="float-end" >
+      <button mat-fab extended (click)="scrollTop()" class="ml-5" [hidden]="isVisible"><mat-icon>arrow_upward</mat-icon>Scrooll</button>
+    </div>
+
   </div>
-
-</div>
-
 
 
 

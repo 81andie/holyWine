@@ -20,7 +20,7 @@ import { Subscription } from 'rxjs';
 })
 export class CardsComponent implements OnInit, OnDestroy{
 
-  public isVisible:boolean = false;
+  public isVisible:boolean = true;
   public wines: Wine[] = [];
   private getBottlesDestroy!: Subscription;
 
@@ -39,7 +39,7 @@ export class CardsComponent implements OnInit, OnDestroy{
 
   ngOnInit(): void {
     this.getBottlesAll();
-    this.visibilityButtons();
+
 
   }
 
@@ -47,7 +47,9 @@ export class CardsComponent implements OnInit, OnDestroy{
     this.getBottlesDestroy= this.wineService.getAllBottles(this.limit, this.offset).subscribe({
       next: (data) => {
         this.displayedBottles = [...this.displayedBottles, ...data.map(bootle=> ({...bootle, likes: 0}))];
-        this.offset += this.limit; // Actualiza el offset para la siguiente consulta
+        this.offset += this.limit;
+        this.isVisible = false;
+      // Actualiza el offset para la siguiente consulta
       },
       error: (error) => console.error('Error al cargar más datos', error)
 
@@ -56,14 +58,14 @@ export class CardsComponent implements OnInit, OnDestroy{
 
  scrollTop(){
   document.documentElement.scrollTop = 0;
- }
 
- visibilityButtons(){
-  if(this.displayedBottles.length){
-    this.isVisible = true;
-  }
  }
 
 }
+
+
+
+
+
 
 
