@@ -28,10 +28,6 @@ export class CardsComponent implements OnInit, OnDestroy{
   offset = 0;
 
 
-
-
-
-
   constructor(private wineService: WineCardService) {}
   ngOnDestroy(): void {
     this.getBottlesDestroy?.unsubscribe();
@@ -41,7 +37,6 @@ export class CardsComponent implements OnInit, OnDestroy{
 
   ngOnInit(): void {
     this.getBottlesAll();
-
 
   }
 
@@ -56,13 +51,9 @@ export class CardsComponent implements OnInit, OnDestroy{
     })
   }
 
-  counterLikes(bootle:Wine){
-    bootle.likes++;
-
-
-  }
-
-
+ scrollTop(){
+  document.documentElement.scrollTop = 0;
+ }
 
 }
 

@@ -15,7 +15,7 @@
 
 
   @for(item of wines; track item; let idx=$index, counter=$count){
-    <mat-card class="flex flex-col w-11/12 md:w-2/5 h-auto bg-gradient-to-r from-pink-100 to-slate-50 shadow-inner border-none" appearance="outlined">
+    <mat-card class="flex flex-col w-11/12 md:w-2/5 h-auto bg-gradient-to-r from-violet-100 to-slate-50 shadow-inner border-none" appearance="outlined">
       <mat-card-header class="text-left  w-full">
         <mat-card-title-group>
           <mat-card-title>
@@ -30,12 +30,9 @@
 
       <div class="flex flex-row justify-evenly">
         <mat-card-content >
-
-
              <p class="text-xs"><strong> Origin:</strong> {{item.country}}</p>
              <p class="text-xs" ><strong> Province:</strong> {{item.province}}</p>
              <p class="text-xs"><strong> Vinery:</strong> {{item.winery}}</p>
-
         </mat-card-content>
 
         <mat-card-content >
@@ -70,9 +67,6 @@
       </mat-card-footer>
 
     </mat-card>
-
-
-
 
 
 

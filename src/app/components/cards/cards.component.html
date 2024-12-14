@@ -51,7 +51,7 @@
        <p class="text-left p-4 text-xs md:text-sm">{{item.description}}</p>
 
        <mat-card-actions>
-        <button mat-button (click)="counterLikes(item)">LIKE <mat-icon>favorite</mat-icon>{{item.likes}} </button>
+
         <button mat-button>SHARE<mat-icon>share</mat-icon> </button>
       </mat-card-actions>
 
@@ -63,6 +63,13 @@
 
 </div>
 
-<div class="flex flex-row justify-center mt-5 mb-5">
-  <button mat-fab extended (click)="getBottlesAll()" class="w-20">Cargar más</button>
+<div class="float-right ">
+  <button mat-fab extended (click)="scrollTop()" class="w-10 h-3">^</button>
 </div>
+
+<div class="flex flex-row justify-center mt-5 mb-5">
+  <button mat-fab extended (click)="getBottlesAll()" class="w-20 ml-4">Cargar más</button>
+
+</div>
+
+

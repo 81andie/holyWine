@@ -1,8 +1,9 @@
 
 import { Component } from '@angular/core';
-import {MatIconModule} from '@angular/material/icon';
-import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { MatIconModule } from '@angular/material/icon';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { SearchBarComponent } from "../search-bar/search-bar.component";
+import { Wine } from '../../interfaces/winecard.interface';
 
 @Component({
   selector: 'app-intro-section',
@@ -11,5 +12,14 @@ import { SearchBarComponent } from "../search-bar/search-bar.component";
   styleUrl: './intro-section.component.css'
 })
 export class IntroSectionComponent {
+
+
+  public wineVariety: Wine[] = [];
+
+
+  filterUniqueVariety() {
+    
+
+  }
 
 }

@@ -54,29 +54,22 @@ export class SearchBarComponent implements OnInit, OnDestroy {
 
     if (event.key === 'Enter') {
       const searchBar = this.myInput.value.trim().toLowerCase();
+      console.log( 'Input:', searchBar);
 
-      if (searchBar.length) {
+      if (searchBar.length > 0) {
         let filtered = this.wine.filter((wineFiltered) => {
           const titleLower = wineFiltered.title.toLowerCase();
-          let matchs = titleLower.includes(searchBar);
+          console.log(titleLower);
+          console.log(searchBar);
+
+         let matchs = titleLower.includes(searchBar);
+          console.log('matchs:', matchs)
           return matchs;
-
-
         })
         this.wines = filtered;
-
       }
-
       this.myInput.reset('')
-      
     }
-
-
-
-
-
-
-
   }
 
 
@@ -110,10 +103,11 @@ export class SearchBarComponent implements OnInit, OnDestroy {
     this.wineService.getAllBottles1().subscribe(data => {
       this.wine = data;
       // console.log(this.wine);
-      this.wineTitles = this.wine.map((bottle: { title: string }) => bottle.title.toLocaleLowerCase())
+      // this.wineTitles = this.wine.map((bottle: { title: string }) => bottle.title.toLocaleLowerCase())
       // console.log(this.wineTitles)
     })
   }
+
 }
 
 
