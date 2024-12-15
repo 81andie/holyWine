@@ -1,18 +1,18 @@
 export interface Wine {
-[x: string]: any;
-  points:                number;
-  title:                 string;
-  description:           string;
-  taster_name:           TasterName | null;
+  [x: string]: any;
+  points: number;
+  title: string;
+  description: string;
+  taster_name: TasterName | null;
   taster_twitter_handle: TasterTwitterHandle | null;
-  price:                 number | null;
-  designation:           null | string;
-  variety:               string;
-  region_1:              null | string;
-  region_2:              Region2 | null;
-  province:              null | string;
-  country:               Country | null;
-  winery:                string;
+  price: number | null;
+  designation: null | string;
+  variety: string;
+  region_1: null | string;
+  region_2: Region2 | null;
+  province: null | string;
+  country: Country | null;
+  winery: string;
   likes: number;
 
 }
@@ -110,3 +110,12 @@ export enum TasterTwitterHandle {
   Wineschach = "@wineschach",
   Worldwineguys = "@worldwineguys",
 }
+
+export interface WineVar {
+  [x: string]: any;
+
+  nombre: string
+  descripcion: string;
+
+}
+

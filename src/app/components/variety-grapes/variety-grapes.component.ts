@@ -1,7 +1,7 @@
 
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
-import { Wine } from '../../interfaces/winecard.interface';
+import { Wine, WineVar } from '../../interfaces/winecard.interface';
 import { WineCardService } from '../../services/wine-card-service';
 
 @Component({
@@ -15,29 +15,40 @@ export class VarietyGrapesComponent implements OnInit {
   constructor(private wineService: WineCardService) { }
 
   ngOnInit(): void {
-    this.searchVarietyWines();
+
+  this.searchVarietyWines();
+
 
   }
 
   private wine: Wine[] = [];
-  private wineVariety: string[] = [];
-  private wineVarietyUnique: string[] = [];
+  private wineVariety: WineVar[] = [];
+
+
+
+
 
   searchVarietyWines() {
-    this.wineService.getAllBottles1().subscribe(data => {
+  /*  this.wineService.getAllBottles1().subscribe(data => {
       this.wine = data;
-
-      let multipleVariety = this.wine.map((variety: { variety: string }) =>(variety.variety))
+      let multipleVariety = this.wine.map((variety: { variety: string }) => (variety.variety))
       console.log(multipleVariety)
 
-      let unique = new Set(multipleVariety.flat());
-      this.wineVarietyUnique = [...unique];
-      console.log(this.wineVarietyUnique)
+      let unique = Array.from(new Set(multipleVariety));
+      this.wineVariety = unique.map(variety=>({
+        nombre: variety,
+        descripcion: ''
+      }))
 
-      })
-
+      console.log(this.wineVariety);
+    })*/
 
   }
+
+
+
+
+
 
 
 }
