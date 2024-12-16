@@ -1,1 +1,32 @@
-<p>variety-grapes works!</p>
+
+<div class="flex flex-wrap gap-5 justify-center mt-30" >
+
+  @for(item of displayedVariety; track item.title){
+
+
+  <mat-card class="flex flex-col w-11/12 md:w-2/5 h-auto bg-gradient-to-r from-slate-200 to-slate-50 shadow-inner border-none" appearance="outlined">
+    <mat-card-header class="text-left  w-full">
+      <mat-card-title-group>
+        <mat-card-title>
+          <p class="text-lg font-extrabold text-violet-800">{{item.nombre}}</p>
+        </mat-card-title>
+        <mat-card-subtitle>
+          <p class="text-sm">{{item.descripcion}}</p>
+        </mat-card-subtitle>
+      </mat-card-title-group>
+    </mat-card-header>
+
+
+
+
+    <mat-card-footer>
+       <p class="text-left p-4 text-xs md:text-sm">{{item.description}}</p>
+       <mat-card-actions>
+        <button mat-button>SHARE<mat-icon>share</mat-icon> </button>
+      </mat-card-actions>
+    </mat-card-footer>
+
+  </mat-card>
+
+
+  }

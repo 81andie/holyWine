@@ -56,13 +56,13 @@ export class SearchBarComponent implements OnInit, OnDestroy {
 
     if (event.key === 'Enter') {
       const searchBar = this.myInput.value.trim().toLowerCase();
-      console.log( 'Input:', searchBar);
+     // console.log( 'Input:', searchBar);
 
       if (searchBar.length > 0) {
         let filtered = this.wine.filter((wineFiltered) => {
           const titleLower = wineFiltered.title.toLowerCase();
-          console.log(titleLower);
-          console.log(searchBar);
+        //  console.log(titleLower);
+        //  console.log(searchBar);
 
          let matchs = titleLower.includes(searchBar);
           console.log('matchs:', matchs)
