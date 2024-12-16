@@ -1,17 +1,20 @@
 
-<div class="flex flex-wrap gap-5 justify-center mt-30" >
 
-  @for(item of displayedVariety; track item.title){
+  <div class="flex flex-wrap gap-8 justify-center mt-30 justify-items-center" >
 
-
-  <mat-card class="flex flex-col w-11/12 md:w-2/5 h-auto bg-gradient-to-r from-slate-200 to-slate-50 shadow-inner border-none" appearance="outlined">
-    <mat-card-header class="text-left  w-full">
+  @for(item of displayedVariety; track item.nombre){
+  <mat-card class="flex flex-col w-11/12 md:w-2/5 h-auto bg-gradient-to-r from-white to-fuchsia-50 shadow-inner border-none" appearance="outlined">
+    <mat-card-header class="text-left w-full ">
+    <div class="h-2 w-10 bg-rose-200"></div>
       <mat-card-title-group>
+
         <mat-card-title>
-          <p class="text-lg font-extrabold text-violet-800">{{item.nombre}}</p>
+          <p class="text-xl-3 font-extrabold mt-2 w-full bg-gray-800-200 rounded-xl text-black">{{item.nombre}}</p>
         </mat-card-title>
+
+
         <mat-card-subtitle>
-          <p class="text-sm">{{item.descripcion}}</p>
+          <p class="text-lg mt-8">{{item.descripcion}} </p>
         </mat-card-subtitle>
       </mat-card-title-group>
     </mat-card-header>
@@ -22,11 +25,29 @@
     <mat-card-footer>
        <p class="text-left p-4 text-xs md:text-sm">{{item.description}}</p>
        <mat-card-actions>
-        <button mat-button>SHARE<mat-icon>share</mat-icon> </button>
+        <div class="m-5 flex flex-row gap-5 justify-end ml-11">
+          <i class="fa-brands fa-instagram text-3xl"></i>
+          <i class="fa-brands fa-facebook text-3xl"></i>
+          <i class="fa-brands fa-x-twitter text-3xl"></i>
+          <i class="fa-brands fa-telegram text-3xl"></i>
+
+        </div>
+
       </mat-card-actions>
     </mat-card-footer>
-
   </mat-card>
 
 
+  }@empty {
+    <p>no hay más res</p>
   }
+
+  </div>
+
+
+  <div class="flex flex-row justify-center w-30 mt-5 mb-5">
+    <button mat-fab extended (click)="searchVarietyWines()" class="w-20 ml-4" [hidden]="isVisible">Cargar más</button>
+  </div>
+
+
+

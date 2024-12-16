@@ -30,6 +30,7 @@ export class VarietyGrapesComponent implements OnInit, OnDestroy {
   private wine: Wine[] = [];
   private wineVariety: WineVar[] = [];
   private getAllVarDestroy!: Subscription;
+  public isVisible:boolean = true;
   displayedVariety: any[] = [];
   limit = 20;
   offset = 0;
@@ -42,6 +43,8 @@ export class VarietyGrapesComponent implements OnInit, OnDestroy {
       next:(data)=>{
         this.displayedVariety =[...this.displayedVariety, ...data];
         this.offset += this.limit;
+        this.isVisible = false;
+
       },
 
       error: (error)=>console.log('Error al cargar más datos', error)
