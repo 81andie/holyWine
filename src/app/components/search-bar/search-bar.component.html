@@ -15,10 +15,12 @@
 
 
   @for(item of wines; track item; let idx=$index, counter=$count){
+  
     <mat-card class="flex flex-col w-11/12 md:w-2/5 h-auto bg-gradient-to-r from-slate-100 to-gray-50 shadow-inner border-none" appearance="outlined">
       <mat-card-header class="text-left  w-full">
         <mat-card-title-group>
           <mat-card-title>
+
             <p class="text-lg font-extrabold text-violet-800">{{item.title}}</p>
           </mat-card-title>
           <mat-card-subtitle>
@@ -65,19 +67,13 @@
         </mat-card-actions>
 
       </mat-card-footer>
-
     </mat-card>
-
-
-
-
-  }@empty {
-  <p>Haz tu busqueda en el buscador</p>
-<app-cards></app-cards>
-
-
+  }@empty{
+    <p>No se han encontrado coincidencias</p>
 
 }
+
+<app-cards></app-cards>
 
 
 

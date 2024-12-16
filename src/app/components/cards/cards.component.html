@@ -3,11 +3,13 @@
   @for(item of displayedBottles; track item.title){
 
 
-  <mat-card class="flex flex-col w-11/12 md:w-2/5 h-auto bg-gradient-to-r from-slate-200 to-slate-50 shadow-inner border-none" appearance="outlined">
+  <mat-card class="flex flex-col w-11/12 md:w-2/5 h-auto bg-gradient-to-r from-white to-slate-50 shadow-inner border-none" appearance="outlined">
     <mat-card-header class="text-left  w-full">
+      <div class="h-2 w-5 bg-rose-200"></div>
+
       <mat-card-title-group>
         <mat-card-title>
-          <p class="text-lg font-extrabold text-violet-800">{{item.title}}</p>
+          <p class="text-lg font-extrabold text-black">{{item.title}}</p>
         </mat-card-title>
         <mat-card-subtitle>
           <p class="text-xs">{{item.variety}}</p>
@@ -18,16 +20,16 @@
 
     <div class="flex flex-row justify-evenly">
       <mat-card-content >
-           <p class="text-xs"><strong> Origin:</strong> {{item.country}}</p>
-           <p class="text-xs" ><strong> Province:</strong> {{item.province}}</p>
-           <p class="text-xs"><strong> Vinery:</strong> {{item.winery}}</p>
+           <p class="text-xs ml-5"><strong> Origin:</strong> {{item.country}}</p>
+           <p class="text-xs ml-5" ><strong> Province:</strong> {{item.province}}</p>
+           <p class="text-xs ml-5"><strong> Vinery:</strong> {{item.winery}}</p>
 
       </mat-card-content>
 
       <mat-card-content >
 
         <div class="h-16 w-16 bg-red-100 rounded-full">
-         <p class="text-center p-1 text-xl">{{item.points}}</p>
+         <p class="text-center p-1 text-xl ">{{item.points}}</p>
          <p class="text-xs text-center">points</p>
         </div>
 
@@ -45,9 +47,14 @@
     </div>
 
     <mat-card-footer>
-       <p class="text-left p-4 text-xs md:text-sm">{{item.description}}</p>
+       <p class="text-left p-4 text-xs md:text-sm ml-5">{{item.description}}</p>
        <mat-card-actions>
-        <button mat-button>SHARE<mat-icon>share</mat-icon> </button>
+        <div class="m-5 flex flex-row gap-5 justify-end ml-5">
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram text-2xl"></i></a>
+          <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook text-2xl"></i></a>
+          <a href="https://x.com/?prefetchTimestamp=1734384809640&mx=2"><i class="fa-brands fa-x-twitter text-2xl"></i></a>
+          <a href="https://web.telegram.org/a/"><i class="fa-brands fa-telegram text-2xl"></i></a>
+        </div>
       </mat-card-actions>
     </mat-card-footer>
 
