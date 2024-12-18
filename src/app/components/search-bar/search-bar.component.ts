@@ -10,11 +10,12 @@ import { MatChipsModule } from '@angular/material/chips';
 import { MatIconModule } from '@angular/material/icon';
 import { CardsComponent } from "../cards/cards.component";
 import { Subscription } from 'rxjs';
+import { FooterComponent } from "../footer/footer.component";
 
 
 @Component({
   selector: 'app-search-bar',
-  imports: [FormsModule, MatFormFieldModule, MatInputModule, ReactiveFormsModule, MatCardModule, MatChipsModule, MatIconModule, MatButtonModule, CardsComponent],
+  imports: [FormsModule, MatFormFieldModule, MatInputModule, ReactiveFormsModule, MatCardModule, MatChipsModule, MatIconModule, MatButtonModule, CardsComponent, FooterComponent],
   templateUrl: './search-bar.component.html',
   styleUrl: './search-bar.component.css'
 })
