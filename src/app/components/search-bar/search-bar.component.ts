@@ -1,8 +1,9 @@
+
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms'
-import { Wine } from '../../interfaces/winecard.interface';
+import { Wine} from '../../interfaces/winecard.interface';
 import { WineCardService } from '../../services/wine-card-service';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
@@ -11,6 +12,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { CardsComponent } from "../cards/cards.component";
 import { Subscription } from 'rxjs';
 import { FooterComponent } from "../footer/footer.component";
+import { QRCodeComponent } from 'angularx-qrcode';
+
+
 
 
 @Component({
@@ -37,10 +41,12 @@ export class SearchBarComponent implements OnInit, OnDestroy {
   myInput: FormControl = new FormControl('');
 
   public wine: Wine[] = [];
-  public wineTitles: string[] = [];
+  public wineTasters: string[] = [];
   public wines: Wine[] = [];
 
   displayedBottles: any[] = [];
+
+  title = 'qr-code-generator';
   limit = 150;
   offset = 0;
 
@@ -103,12 +109,16 @@ export class SearchBarComponent implements OnInit, OnDestroy {
     this.getBottlesDestroy1 = this.wineService.getAllBottles1().subscribe(data => {
       this.wine = data;
       // console.log(this.wine);
-      // this.wineTitles = this.wine.map((bottle: { title: string }) => bottle.title.toLocaleLowerCase())
-      // console.log(this.wineTitles)
-    })
+
+
+      })
+
+
+
+    }
   }
 
-}
+
 
 
 

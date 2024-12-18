@@ -3,7 +3,7 @@
   @for(item of displayedBottles; track item.title){
 
 
-  <mat-card class="flex flex-col w-11/12 md:w-2/5 h-auto bg-gradient-to-r from-white to-rose-50 shadow-inner border-none" appearance="outlined">
+  <mat-card class="flex flex-col w-11/12 md:w-2/5 h-auto bg-gradient-to-r from-white to-fuchsia-50 shadow-inner border-none" appearance="outlined">
     <mat-card-header class="text-left  w-full">
       <div class="h-2 w-5 bg-rose-200"></div>
 
@@ -23,6 +23,7 @@
            <p class="text-xs ml-5"><strong> Origin:</strong> {{item.country}}</p>
            <p class="text-xs ml-5" ><strong> Province:</strong> {{item.province}}</p>
            <p class="text-xs ml-5"><strong> Vinery:</strong> {{item.winery}}</p>
+           <p class="text-xs ml-5"><strong>Taster: </strong>{{item.taster_name || 'no se ha testado'}}</p>
 
       </mat-card-content>
 
@@ -49,13 +50,28 @@
     <mat-card-footer>
        <p class="text-left p-4 text-xs md:text-sm ml-5">{{item.description}}</p>
        <mat-card-actions>
-        <div class="m-5 flex flex-row gap-5 justify-end ml-5">
-          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram text-2xl"></i></a>
-          <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook text-2xl"></i></a>
-          <a href="https://x.com/?prefetchTimestamp=1734384809640&mx=2"><i class="fa-brands fa-x-twitter text-2xl"></i></a>
-          <a href="https://web.telegram.org/a/"><i class="fa-brands fa-telegram text-2xl"></i></a>
+        <div class="flex flex-row justify-end w-full">
+          <div class="m-5 flex flex-row gap-5 justify-end ml-5">
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram text-2xl"></i></a>
+            <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook text-2xl"></i></a>
+            <a href="https://x.com/?prefetchTimestamp=1734384809640&mx=2"><i class="fa-brands fa-x-twitter text-2xl"></i></a>
+            <a href="https://web.telegram.org/a/"><i class="fa-brands fa-telegram text-2xl"></i></a>
+            <div class="flex flex-col justify-c mt-3" *ngIf="item.taster_twitter_handle">
+              <p class="ml-5 text-bold">{{item.taster_name}}</p>
+              <qrcode [qrdata]="'https://x.com/' + (item.taster_twitter_handle ? item.taster_twitter_handle.replace('@', '') : '')"  [width]="120" [errorCorrectionLevel]="'M'">{{item.taster_twitter_handle}}</qrcode>
+            </div>
+
+          </div>
+
         </div>
+
+
+
+
+
+
       </mat-card-actions>
+
     </mat-card-footer>
 
   </mat-card>
@@ -64,13 +80,18 @@
   }
 
 
+  <div class="w-96">
+    <div class="flex flex-row justify-center mt-5 mb-5">
+      <button mat-fab extended (click)="getBottlesAll()" class="w-20 ml-4 " [hidden]="isVisible" >Cargar más</button>
 
-  <div class="flex flex-row justify-center mt-5 mb-5">
-    <button mat-fab extended (click)="getBottlesAll()" class="w-20 ml-4" [hidden]="isVisible" >Cargar más</button>
+      <div class="float-end" >
+        <button mat-fab (click)="scrollTop()" class="w-28 ml-4" [hidden]="isVisible"><mat-icon>arrow_upward</mat-icon>top</button>
+      </div>
 
-    <div class="float-end" >
-      <button mat-fab (click)="scrollTop()" class="ml-5" [hidden]="isVisible"><mat-icon>arrow_upward</mat-icon>Scrooll</button>
-    </div>
+  </div>
+
+
+
 
   </div>
 

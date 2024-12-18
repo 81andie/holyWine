@@ -8,13 +8,15 @@ import {MatListModule} from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { Subscription } from 'rxjs';
+import { QRCodeComponent } from 'angularx-qrcode';
+
 
 
 
 
 @Component({
   selector: 'app-cards',
-  imports: [CommonModule, MatCardModule, MatIconModule, MatButtonModule, MatListModule],
+  imports: [CommonModule, MatCardModule, MatIconModule, MatButtonModule, MatListModule, QRCodeComponent],
   templateUrl: './cards.component.html',
   styleUrl: './cards.component.css'
 })
