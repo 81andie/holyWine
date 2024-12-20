@@ -1,12 +1,13 @@
 .mat-toolbar{
-background: rgb(226, 161, 232);
-background: linear-gradient(177deg, rgba(231, 1, 252, 0.125) 0%, rgba(252, 251, 254, 0.181) 100%);
+
+background: rgb(252, 237, 227);
+background: linear-gradient(177deg, rgba(252, 238, 231, 0.502) 0%, rgba(69, 20, 37, 0.518) 100%);
 
 }
 
 button{
-  background: rgb(226, 161, 232);
-  background: linear-gradient(177deg, rgba(231, 1, 252, 0.057) 0%, rgba(252, 251, 254, 0.181) 100%);
-  
+  background: rgb(208, 180, 163);
+  background: linear-gradient(177deg, rgba(252, 218, 199, 0.254) 0%, rgba(69, 20, 37, 0.23) 100%);
+
 }
 
