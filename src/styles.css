@@ -6,7 +6,7 @@
 
 :root {
 
---pantone-17-mochamousse: #a47864;
+  --pantone-17-mocha: #a47864;
   --pantone-17-tendril: #89a06b;
   --pantone-17-cornflowerblue: #7391c8;
   --pantone-17-viola: #a692ba;
@@ -23,7 +23,7 @@ html, body { height: 100%;
 }
 body { margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
- 
+
 
 
 

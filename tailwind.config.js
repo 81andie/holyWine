@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         pantone: {
-          '17-tendril': 'var(--pantone-17-mochamousse)',
+          '17-mocha': 'var(--pantone-17-mocha)',
           '17-tendril': 'var(--pantone-17-tendril)',
           '17-cornflower-blue': 'var(--pantone-17-cornflowerblue)',
           '17-viola': 'var(--pantone-17-viola)',
