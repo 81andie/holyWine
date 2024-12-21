@@ -1,5 +1,5 @@
 button
 {
-  background-color: white;
-  color: fuchsia
+  background-color: var(--pantone-17-mocha);
+  color: var(--pantone-17-gardenia)
 }
