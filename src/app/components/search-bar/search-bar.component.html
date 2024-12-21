@@ -1,5 +1,5 @@
 <form class="example-form flex flex-row justify-center  p-1" >
-  <mat-form-field class=" w-full md:w-10/12 " appearance="fill" style="background-color: azure;">
+  <mat-form-field class=" w-full md:w-10/12 " appearance="fill" >
 
     <mat-label class="text-xs">Busque aquí la marca de vino...</mat-label>
     <div class="flex">
@@ -28,7 +28,7 @@
 
       @for(item of wines; track item; let idx=$index, counter=$count){
 
-     <mat-card class="flex flex-col w-11/12 md:w-2/5 h-auto bg-gradient-to-r from-slate-100 to-fuchsia-50 shadow-inner border-none" appearance="outlined">
+     <mat-card class="flex flex-col w-11/12 md:w-2/5 h-auto bg-gradient-to-r from-pantone-17-gardenia to white shadow-inner border-none" appearance="outlined">
        <mat-card-header class="text-left  w-full">
         <div class="h-2 w-5 bg-fuchsia-200"></div>
          <mat-card-title-group>

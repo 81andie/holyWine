@@ -1,13 +1,12 @@
 .mat-toolbar{
 
-background: rgb(252, 237, 227);
-background: linear-gradient(177deg, rgba(252, 238, 231, 0.502) 0%, rgba(69, 20, 37, 0.518) 100%);
+background-color: var(--pantone-17-gardenia);
 
 }
 
 button{
-  background: rgb(208, 180, 163);
-  background: linear-gradient(177deg, rgba(252, 218, 199, 0.254) 0%, rgba(69, 20, 37, 0.23) 100%);
 
+  background-color: var(--pantone-17-gardenia);
 }
+
 

@@ -3,8 +3,28 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+
+:root {
+
+--pantone-17-mochamousse: #a47864;
+  --pantone-17-tendril: #89a06b;
+  --pantone-17-cornflowerblue: #7391c8;
+  --pantone-17-viola: #a692ba;
+  --pantone-17-rosetan:#d19c97 ;
+  --pantone-17-cobblestone: #a89a8e;
+  --pantone-17-mochawillow: #9a8b4f;
+  --pantone-17-gardenia: #f1e9df;
+
+}
+
+html, body { height: 100%;
+
+
+}
+body { margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
  
+
+
 
 }
