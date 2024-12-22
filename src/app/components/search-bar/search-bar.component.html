@@ -28,7 +28,11 @@
 
       @for(item of wines; track item; let idx=$index, counter=$count){
 
-     <mat-card class="flex flex-col w-11/12 md:w-2/5 h-auto bg-gradient-to-r from-pantone-17-gardenia to white shadow-inner border-none" appearance="outlined">
+     <mat-card class="flex flex-col w-11/12 md:w-2/5 h-auto bg-gradient-to-r from-pantone-17-gardenia to white shadow-inner border-none" appearance="outlined"
+     data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"
+     >
        <mat-card-header class="text-left  w-full">
         <div class="h-2 w-3 bg-pantone-17-viola"></div>
          <mat-card-title-group>
