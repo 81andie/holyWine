@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
 
 
@@ -9,6 +9,9 @@ import { MatIconModule } from '@angular/material/icon';
   templateUrl: './intro-section1.component.html',
   styleUrl: './intro-section1.component.css'
 })
-export class IntroSection1Component {
+export class IntroSection1Component  {
+  
+
+
 
 }
