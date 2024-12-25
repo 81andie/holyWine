@@ -40,10 +40,13 @@ export class WineCardService {
 
 
   getAllVarieties(limit: number, offset: number): Observable<WineVar[]> {
+    const baseHref = '/holyWine';
+    const url = `${baseHref}/wines.json`;
+
     if (this.cachedDataVariety && Array.isArray(this.cachedDataVariety)) {
       return of(this.cachedDataVariety.slice(offset, offset + limit));
     }
-    return this.http.get<{vinos:WineVar[]}>('/wines.json').pipe(
+    return this.http.get<{vinos:WineVar[]}>(url).pipe(
       tap((response)=>{
         if (Array.isArray(response.vinos)) {
           this.cachedDataVariety = response.vinos;
