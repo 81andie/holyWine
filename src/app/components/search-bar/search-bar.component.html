@@ -1,10 +1,10 @@
 <form class="example-form flex flex-row justify-center  p-1" >
   <mat-form-field class=" w-full md:w-10/12 " appearance="fill" >
 
-    <mat-label class="text-xs">Busque aquí la marca de vino...</mat-label>
+    <mat-label class="text-xs">Search here for the wine brand...</mat-label>
     <div class="flex">
       <input matInput placeholder="Cabernet Saugvignon" value="Wine" [formControl]="myInput" (keyup)="filteredWines($event)">
-      <button mat-raised-button (click)="resetSearchInput()" class="text-xs w-28 ml-2"><mat-icon class="text-xs">delete</mat-icon>Borrar</button>
+      <button mat-raised-button (click)="resetSearchInput()" class="text-xs w-28 ml-2"><mat-icon class="text-xs">delete</mat-icon>Delete</button>
     </div>
 
   </mat-form-field>
@@ -14,12 +14,13 @@
 
 @if(wines.length > 0){
   <div class="flex justify-center">
-    <p class="text-center p-3 m-2 mb-4 w-full md:w-10/12 bg-fuchsia-300">Se han encontrado estas coincidencias</p>
+    <p class="text-center p-3 m-2 mb-4 w-full md:w-10/12 bg-fuchsia-300">These matches have been found</p>
   </div>
 
  }@else{
   <div class="flex justify-center">
-    <p class="text-center  p-2 mb-4 w-full md:w-10/12 bg-fuchsia-100">No se ha hecho ninguna búsqueda</p>
+    <p class="text-center  p-2 mb-4 w-full md:w-10/12 bg-fuchsia-100"></p>
+    <p class="text-center  p-2 mb-4 w-full md:w-10/12 bg-fuchsia-100"></p>
   </div>
  }
 
