@@ -2,1127 +2,1136 @@
   "vinos": [
     {
       "nombre": "Cabernet Sauvignon",
-      "descripcion": "Uva versátil con notas de grosella negra, pimientos y tabaco."
+      "descripcion": "Versatile grape with notes of blackcurrant, bell peppers, and tobacco."
     },
     {
       "nombre": "Rhône-style Red Blend",
-      "descripcion": "Mezcla robusta con sabores a frutas oscuras y especias."
+      "descripcion": "Robust blend with flavors of dark fruits and spices."
     },
     {
       "nombre": "Red Blend",
-      "descripcion": "Combinación de variedades, destaca por su equilibrio y diversidad de sabores."
+      "descripcion": "Combination of varieties, known for its balance and diverse flavors."
     },
     {
       "nombre": "Bordeaux-style Red Blend",
-      "descripcion": "Mezcla clásica con notas de ciruela, grosella negra y taninos firmes."
+      "descripcion": "Classic blend with notes of plum, blackcurrant, and firm tannins."
     },
     {
       "nombre": "Rhône-style White Blend",
-      "descripcion": "Vino blanco floral y complejo con frutas cítricas y minerales."
+      "descripcion": "Floral and complex white wine with citrus fruits and minerals."
     },
     {
       "nombre": "Merlot",
-      "descripcion": "Suave y afrutada, con toques de cereza y ciruela."
+      "descripcion": "Smooth and fruity, with hints of cherry and plum."
     },
     {
       "nombre": "Syrah",
-      "descripcion": "Rica y especiada, con sabores de frutos oscuros y pimienta negra."
+      "descripcion": "Rich and spicy, with flavors of dark fruits and black pepper."
     },
     {
       "nombre": "Sauvignon Blanc",
-      "descripcion": "Fresca y aromática, con notas de hierba y frutas tropicales."
+      "descripcion": "Fresh and aromatic, with notes of grass and tropical fruits."
     },
     {
       "nombre": "Aglianico",
-      "descripcion": "Potente y tánica, con sabores a cerezas negras y regaliz."
+      "descripcion": "Powerful and tannic, with flavors of black cherries and licorice."
     },
     {
       "nombre": "Riesling",
-      "descripcion": "Aromática, desde dulce hasta seca, con toques de miel y cítricos."
+      "descripcion": "Aromatic, ranging from sweet to dry, with hints of honey and citrus."
     },
     {
       "nombre": "Pinot Noir",
-      "descripcion": "Elegante y ligero, con notas de cereza, fresas y especias."
+      "descripcion": "Elegant and light, with notes of cherry, strawberries, and spices."
     },
     {
       "nombre": "Chardonnay",
-      "descripcion": "Versátil, desde fresco y cítrico hasta cremoso con roble."
+      "descripcion": "Versatile, from fresh and citrusy to creamy with oak."
     },
     {
       "nombre": "Fiano",
-      "descripcion": "Aromática y compleja, con sabores a miel y almendras."
+      "descripcion": "Aromatic and complex, with flavors of honey and almonds."
     },
     {
       "nombre": "Melon",
-      "descripcion": "Fresca y cítrica, típica en vinos como el Muscadet."
+      "descripcion": "Fresh and citrusy, typical in wines like Muscadet."
     },
     {
       "nombre": "Cabernet Blend",
-      "descripcion": "Mezcla rica con estructura y sabores a frutas oscuras."
+      "descripcion": "Rich blend with structure and flavors of dark fruits."
     },
     {
       "nombre": "Shiraz",
-      "descripcion": "Similar al Syrah, con más cuerpo y notas de chocolate y especias."
+      "descripcion": "Similar to Syrah, with more body and notes of chocolate and spices."
     },
     {
       "nombre": "Gewürztraminer",
-      "descripcion": "Aromática y floral, con sabores a lichi y rosas."
+      "descripcion": "Aromatic and floral, with flavors of lychee and roses."
     },
     {
       "nombre": "Zinfandel",
-      "descripcion": "Intensa y frutal, con sabores de moras y especias dulces."
+      "descripcion": "Bold and fruity, with flavors of blackberries and sweet spices."
     },
     {
       "nombre": "Spätburgunder",
-      "descripcion": "Versión alemana del Pinot Noir, elegante y afrutada."
+      "descripcion": "German version of Pinot Noir, elegant and fruity."
     },
     {
       "nombre": "Corvina, Rondinella, Molinara",
-      "descripcion": "Mezcla italiana usada en Amarone y Valpolicella, rica y compleja."
+      "descripcion": "Italian blend used in Amarone and Valpolicella, rich and complex."
     },
     {
       "nombre": "Albariño",
-      "descripcion": "Fresca y mineral, con toques de cítricos y melocotón."
+      "descripcion": "Fresh and mineral, with hints of citrus and peach."
     },
     {
       "nombre": "Pinot Gris",
-      "descripcion": "Fresco y afrutado, con matices de pera y especias."
+      "descripcion": "Fresh and fruity, with notes of pear and spices."
     },
     {
       "nombre": "White Blend",
-      "descripcion": "Mezcla de uvas blancas con estilos variados."
+      "descripcion": "Blend of white grapes with varied styles."
     },
     {
       "nombre": "St. Vincent",
-      "descripcion": "Uva híbrida con sabores afrutados y un toque picante."
+      "descripcion": "Hybrid grape with fruity flavors and a spicy touch."
     },
     {
       "nombre": "Petite Sirah",
-      "descripcion": "Intensa y tánica, con sabores de moras y especias."
+      "descripcion": "Bold and tannic, with flavors of blackberries and spices."
     },
     {
       "nombre": "G-S-M",
-      "descripcion": "Mezcla de Garnacha, Syrah y Mourvèdre, con cuerpo y especias."
+      "descripcion": "Blend of Grenache, Syrah, and Mourvèdre, full-bodied and spicy."
     },
     {
       "nombre": "Cabernet Franc",
-      "descripcion": "Elegante, con sabores a pimientos verdes y frutas rojas."
+      "descripcion": "Elegant, with flavors of green peppers and red fruits."
     },
     {
       "nombre": "Malbec",
-      "descripcion": "Rica y afrutada, con notas de mora y especias."
+      "descripcion": "Rich and fruity, with notes of blackberry and spices."
     },
     {
       "nombre": "Chambourcin",
-      "descripcion": "Uva híbrida con sabores de frutas oscuras y bajo tanino."
+      "descripcion": "Hybrid grape with dark fruit flavors and low tannins."
     },
     {
       "nombre": "Norton",
-      "descripcion": "Variedad americana con sabores a frutas oscuras y especias."
+      "descripcion": "American variety with flavors of dark fruits and spices."
     },
     {
       "nombre": "Sparkling Blend",
-      "descripcion": "Mezcla usada para vinos espumosos, fresca y vibrante."
+      "descripcion": "Blend used for sparkling wines, fresh and vibrant."
     },
     {
       "nombre": "Sauvignon",
-      "descripcion": "Similar al Sauvignon Blanc, fresco y afrutado."
+      "descripcion": "Similar to Sauvignon Blanc, fresh and fruity."
     },
     {
       "nombre": "Portuguese Red",
-      "descripcion": "Mezcla robusta, típica de Portugal, con frutas oscuras."
+      "descripcion": "Robust blend, typical of Portugal, with dark fruits."
     },
     {
       "nombre": "Grüner Veltliner",
-      "descripcion": "Fresca y especiada, con toques de pimienta blanca y cítricos."
+      "descripcion": "Fresh and spicy, with hints of white pepper and citrus."
     },
     {
       "nombre": "Tempranillo",
-      "descripcion": "Clásica de España, con sabores a ciruelas y cuero."
+      "descripcion": "Classic from Spain, with flavors of plums and leather."
     },
     {
       "nombre": "Friulano",
-      "descripcion": "Fresca y herbácea, con toques de almendra y cítricos."
+      "descripcion": "Fresh and herbal, with hints of almond and citrus."
     },
     {
       "nombre": "Sémillon",
-      "descripcion": "Compleja y cerosa, con sabores a miel y frutas maduras."
+      "descripcion": "Complex and waxy, with flavors of honey and ripe fruits."
     },
     {
       "nombre": "Nebbiolo",
-      "descripcion": "Potente y tánica, con notas de rosas y alquitrán."
+      "descripcion": "Powerful and tannic, with notes of roses and tar."
     },
     {
       "nombre": "Cabernet Franc-Cabernet Sauvignon",
-      "descripcion": "Mezcla rica y estructurada."
+      "descripcion": "Rich and structured blend."
     },
     {
       "nombre": "Tempranillo Blend",
-      "descripcion": "Mezcla con Tempranillo, equilibrada y afrutada."
+      "descripcion": "Blend with Tempranillo, balanced and fruity."
     },
     {
       "nombre": "Barbera",
-      "descripcion": "Ligera y ácida, con notas de cerezas y hierbas."
+      "descripcion": "Light and acidic, with notes of cherries and herbs."
     },
     {
       "nombre": "Mencía",
-      "descripcion": "Fresca y afrutada, con toques herbáceos."
+      "descripcion": "Fresh and fruity, with herbal hints."
     },
     {
       "nombre": "Nerello Mascalese",
-      "descripcion": "Elegante y mineral, típica de Sicilia."
+      "descripcion": "Elegant and mineral, typical of Sicily."
     },
     {
       "nombre": "Verdelho",
-      "descripcion": "Fresca y cítrica, con sabores de frutas tropicales."
+      "descripcion": "Fresh and citrusy, with tropical fruit flavors."
     },
     {
       "nombre": "Rosé",
-      "descripcion": "Ligero y afrutado, con toques de fresas y flores."
+      "descripcion": "Light and fruity, with hints of strawberries and flowers."
     },
     {
       "nombre": "Portuguese White",
-      "descripcion": "Mezcla fresca y vibrante, típica de Portugal."
+      "descripcion": "Fresh and vibrant blend, typical of Portugal."
     },
     {
       "nombre": "Pinot Grigio",
-      "descripcion": "Ligero y refrescante, con notas de pera y limón."
+      "descripcion": "Light and refreshing, with notes of pear and lemon."
     },
     {
       "nombre": "Tocai Friulano",
-      "descripcion": "Suave y floral, con toques de almendra."
+      "descripcion": "Smooth and floral, with hints of almond."
     },
     {
       "nombre": "Malvasia Istriana",
-      "descripcion": "Aromática, con sabores a frutas tropicales y miel."
+      "descripcion": "Aromatic, with flavors of tropical fruits and honey."
     },
     {
       "nombre": "Chenin Blanc",
-      "descripcion": "Versátil, desde seco hasta dulce, con notas florales."
+      "descripcion": "Versatile, from dry to sweet, with floral notes."
     },
-    {
+  {
       "nombre": "Glera",
-      "descripcion": "Base para el Prosecco, fresca y cítrica."
+      "descripcion": "Base for Prosecco, fresh and citrusy."
     },
     {
       "nombre": "Champagne Blend",
-      "descripcion": "Mezcla para Champagne, elegante y burbujeante."
+      "descripcion": "Blend for Champagne, elegant and bubbly."
     },
     {
       "nombre": "Passerina",
-      "descripcion": "Ligera y cítrica, típica de Italia."
+      "descripcion": "Light and citrusy, typical of Italy."
     },
     {
       "nombre": "Montepulciano",
-      "descripcion": "Rica y afrutada, con taninos suaves."
+      "descripcion": "Rich and fruity, with soft tannins."
     },
     {
       "nombre": "Pinot Blanc",
-      "descripcion": "Suave y fresco, con notas de manzana y flores."
+      "descripcion": "Smooth and fresh, with notes of apple and flowers."
     },
     {
       "nombre": "Zweigelt",
-      "descripcion": "Uva austríaca, afrutada y fácil de beber."
+      "descripcion": "Austrian grape, fruity and easy to drink."
     },
     {
       "nombre": "Blaufränkisch",
-      "descripcion": "Rica y especiada, con taninos firmes."
+      "descripcion": "Rich and spicy, with firm tannins."
     },
     {
       "nombre": "Austrian Red Blend",
-      "descripcion": "Mezcla austriaca, afrutada y equilibrada."
+      "descripcion": "Austrian blend, fruity and balanced."
     },
     {
       "nombre": "Gamay",
-      "descripcion": "Ligera y afrutada, con notas de frambuesas."
+      "descripcion": "Light and fruity, with notes of raspberries."
     },
     {
       "nombre": "Sangiovese",
-      "descripcion": "Versátil, con sabores de cerezas y hierbas."
+      "descripcion": "Versatile, with flavors of cherries and herbs."
     },
     {
       "nombre": "Cabernet Sauvignon-Syrah",
-      "descripcion": "Mezcla rica, con cuerpo y especias."
+      "descripcion": "Rich blend, full-bodied and spicy."
     },
     {
       "nombre": "Picpoul",
-      "descripcion": "Fresca y cítrica, con una acidez vibrante."
+      "descripcion": "Fresh and citrusy, with vibrant acidity."
     },
     {
       "nombre": "Carmenère",
-      "descripcion": "Rica y especiada, con toques de pimiento rojo."
+      "descripcion": "Rich and spicy, with hints of red pepper."
     },
     {
       "nombre": "Viognier",
-      "descripcion": "Floral y aromática, con notas de albaricoque."
+      "descripcion": "Floral and aromatic, with notes of apricot."
     },
     {
       "nombre": "Monastrell",
-      "descripcion": "Intensa, con sabores de frutas oscuras y especias."
+      "descripcion": "Intense, with flavors of dark fruits and spices."
     },
     {
       "nombre": "Sagrantino",
-      "descripcion": "Potente y tánica, con notas de frutas maduras."
+      "descripcion": "Powerful and tannic, with notes of ripe fruits."
     },
     {
       "nombre": "Meritage",
-      "descripcion": "Mezcla estilo Bordeaux, equilibrada y compleja."
+      "descripcion": "Bordeaux-style blend, balanced and complex."
     },
     {
       "nombre": "Petite Verdot",
-      "descripcion": "Intensa y tánica, con sabores a frutas oscuras."
+      "descripcion": "Intense and tannic, with flavors of dark fruits."
     },
     {
       "nombre": "Cabernet Sauvignon-Shiraz",
-      "descripcion": "Mezcla robusta y especiada."
+      "descripcion": "Robust and spicy blend."
     },
     {
       "nombre": "Corvina",
-      "descripcion": "Ligera y afrutada, base de vinos como Valpolicella."
+      "descripcion": "Light and fruity, base of wines like Valpolicella."
     },
     {
       "nombre": "Provence red blend",
-      "descripcion": "Mezcla ligera y afrutada, típica de Provenza."
+      "descripcion": "Light and fruity blend, typical of Provence."
     },
     {
       "nombre": "Teroldego",
-      "descripcion": "Rica y afrutada, con notas de frutos rojos."
+      "descripcion": "Rich and fruity, with notes of red berries."
     },
     {
       "nombre": "Grenache Blanc",
-      "descripcion": "Fresca y floral, con toques de cítricos."
+      "descripcion": "Fresh and floral, with hints of citrus."
     },
     {
       "nombre": "Sherry",
-      "descripcion": "Vino fortificado, desde seco hasta dulce, con notas de nuez."
+      "descripcion": "Fortified wine, from dry to sweet, with nutty notes."
     },
     {
       "nombre": "Shiraz-Viognier",
-      "descripcion": "Mezcla equilibrada, con especias y frutas."
+      "descripcion": "Balanced blend, with spices and fruits."
     },
     {
       "nombre": "Shiraz-Cabernet Sauvignon",
-      "descripcion": "Mezcla potente y especiada."
+      "descripcion": "Powerful and spicy blend."
     },
     {
       "nombre": "Chancellor",
-      "descripcion": "Uva híbrida, con sabores afrutados y ligeros."
+      "descripcion": "Hybrid grape, with light and fruity flavors."
     },
     {
       "nombre": "Roussanne",
-      "descripcion": "Floral y rica, con notas de frutas tropicales."
+      "descripcion": "Floral and rich, with notes of tropical fruits."
     },
     {
       "nombre": "Palomino",
-      "descripcion": "Base del jerez, con sabores ligeros y salinos."
-    },
-    {
-      "nombre": "Alvarinho",
-      "descripcion": "Fresca y mineral, similar al Albariño."
-    },
-    {
-      "nombre": "Merlot-Cabernet Franc",
-      "descripcion": "Mezcla equilibrada, suave y afrutada."
-    },
-    {
-      "nombre": "Cabernet Sauvignon-Merlot",
-      "descripcion": "Clásica mezcla Bordeaux, compleja y rica."
-    },
-    {
-      "nombre": "Catarratto",
-      "descripcion": "Ligera y fresca, con toques de cítricos."
-    },
-    {
-      "nombre": "Castelão",
-      "descripcion": "Robusta, con sabores de frutas rojas y especias."
-    },
-    {
-      "nombre": "Malvasia",
-      "descripcion": "Floral y aromática, con sabores de frutas tropicales."
-    },
-    {
-      "nombre": "Prosecco",
-      "descripcion": "Espumoso italiano, fresco y ligero."
-    },
-    {
-      "nombre": "Garnacha",
-      "descripcion": "Afrutada y especiada, con cuerpo moderado."
-    },
-    {
-      "nombre": "Muscat",
-      "descripcion": "Dulce y aromática, con notas de miel y flores."
-    },
-    {
-      "nombre": "Port",
-      "descripcion": "Vino fortificado, dulce y rico, típico de Oporto."
-    },
-    {
-      "nombre": "Bordeaux-style White Blend",
-      "descripcion": "Mezcla compleja, con frutas y notas cerosas."
-    },
-    {
-      "nombre": "Malbec-Cabernet Sauvignon",
-      "descripcion": "Mezcla rica y estructurada."
-    },
-    {
-      "nombre": "Torrontés",
-      "descripcion": "Aromática y floral, típica de Argentina."
-    },
-    {
-      "nombre": "Mourvèdre",
-      "descripcion": "Rica y tánica, con notas de especias y frutas oscuras."
-    },
-    {
-      "nombre": "Furmint",
-      "descripcion": "Fresca y mineral, usada en Tokaji."
-    },
-    {
-      "nombre": "Rkatsiteli",
-      "descripcion": "Antigua variedad georgiana, floral y especiada."
-    },
-    {
-      "nombre": "Saperavi",
-      "descripcion": "Rica y tánica, con sabores a frutas oscuras."
-    },
-    {
-      "nombre": "Bonarda",
-      "descripcion": "Afrutada y fácil de beber, típica de Argentina."
-    },
-    {
-      "nombre": "Albarossa",
-      "descripcion": "Intensa y afrutada, con toques de cerezas."
-    },
-    {
-      "nombre": "Garganega",
-      "descripcion": "Fresca y floral, base del Soave."
-    },
-    {
-      "nombre": "Verdicchio",
-      "descripcion": "Ligera y cítrica, con notas de almendra."
-    },
-    {
-      "nombre": "Aligoté",
-      "descripcion": "Uva blanca francesa conocida por vinos frescos con notas cítricas."
-    },
-    {
-      "nombre": "Arneis",
-      "descripcion": "Variedad italiana que produce vinos blancos secos y aromáticos."
-    },
-    {
-      "nombre": "Trebbiano Di Lugana",
-      "descripcion": "Uva italiana que da vinos frescos y elegantes."
-    },
-    {
-      "nombre": "Dolcetto",
-      "descripcion": "Uva tinta italiana con vinos afrutados y ligeros."
-    },
-    {
-      "nombre": "Cortese",
-      "descripcion": "Variedad blanca italiana famosa por el vino Gavi."
-    },
-    {
-      "nombre": "Fumé Blanc",
-      "descripcion": "Sauvignon Blanc fermentado en roble, con notas ahumadas."
-    },
-    {
-      "nombre": "Nero Di Troia",
-      "descripcion": "Uva tinta italiana con vinos robustos y especiados."
-    },
-    {
-      "nombre": "Negroamaro",
-      "descripcion": "Variedad del sur de Italia con vinos ricos y terrosos."
-    },
-    {
-      "nombre": "Marsanne",
-      "descripcion": "Uva blanca del Ródano usada en vinos complejos y ricos."
-    },
-    {
-      "nombre": "Tempranillo Garnacha",
-      "descripcion": "Mezcla española con cuerpo y frutosidad."
-    },
-    {
-      "nombre": "Refosco",
-      "descripcion": "Variedad italiana que da vinos tintos ácidos y robustos."
-    },
-    {
-      "nombre": "Pecorino",
-      "descripcion": "Uva blanca italiana con vinos frescos y minerales."
-    },
-    {
-      "nombre": "Tempranillo Cabernet Sauvignon",
-      "descripcion": "Mezcla que combina estructura y frutas rojas."
-    },
-    {
-      "nombre": "Alicante Bouschet",
-      "descripcion": "Uva tinta con pulpa roja, ideal para vinos intensos."
-    },
-    {
-      "nombre": "Grenache",
-      "descripcion": "Variedad versátil con notas de frutos rojos y especias."
-    },
-    {
-      "nombre": "Malvasia Bianca",
-      "descripcion": "Uva blanca aromática con vinos dulces y frescos."
-    },
-    {
-      "nombre": "Merlot Tannat",
-      "descripcion": "Mezcla que aporta suavidad y estructura."
-    },
-    {
-      "nombre": "Kerner",
-      "descripcion": "Uva alemana que produce vinos aromáticos y afrutados."
-    },
-    {
-      "nombre": "Weissburgunder",
-      "descripcion": "Pinot Blanc alemán con notas florales y cítricas."
-    },
-    {
-      "nombre": "Pinot Nero",
-      "descripcion": "Variedad italiana de Pinot Noir, elegante y compleja."
-    },
-    {
-      "nombre": "Turbiana",
-      "descripcion": "Nombre local para Trebbiano en Lugana, da vinos frescos."
-    },
-    {
-      "nombre": "Malbec Cabernet Franc",
-      "descripcion": "Mezcla con notas especiadas y afrutadas."
-    },
-    {
-      "nombre": "Garnacha Blanca",
-      "descripcion": "Uva blanca del Mediterráneo con vinos cremosos."
-    },
-    {
-      "nombre": "Syrah Tempranillo",
-      "descripcion": "Mezcla potente con frutas oscuras y especias."
-    },
-    {
-      "nombre": "Garnacha Tintorera",
-      "descripcion": "Uva tinta con alta pigmentación y vinos intensos."
-    },
-    {
-      "nombre": "Premsal",
-      "descripcion": "Uva blanca mallorquina con vinos frescos y delicados."
-    },
-    {
-      "nombre": "Petit Verdot",
-      "descripcion": "Variedad tinta con vinos especiados y tánicos."
-    },
-    {
-      "nombre": "Rosado",
-      "descripcion": "Vino ligero y afrutado, ideal para climas cálidos."
-    },
-    {
-      "nombre": "Moscato",
-      "descripcion": "Uva blanca aromática, famosa por sus vinos dulces."
-    },
-    {
-      "nombre": "Malbec Syrah",
-      "descripcion": "Mezcla con cuerpo, notas de frutas negras y especias."
-    },
-    {
-      "nombre": "St. Laurent",
-      "descripcion": "Uva tinta austríaca con vinos frutales y elegantes."
-    },
-    {
-      "nombre": "Austrian White Blend",
-      "descripcion": "Mezcla blanca con frescura y acidez vibrante."
-    },
-    {
-      "nombre": "Viura",
-      "descripcion": "Uva española usada en blancos frescos y envejecidos."
-    },
-    {
-      "nombre": "Pinot Bianco",
-      "descripcion": "Uva italiana con vinos ligeros y florales."
-    },
-    {
-      "nombre": "Touriga Nacional",
-      "descripcion": "Variedad portuguesa con vinos intensos y florales."
-    },
-    {
-      "nombre": "Lambrusco Grasparossa",
-      "descripcion": "Uva tinta para espumantes con notas de frutas rojas."
-    },
-    {
-      "nombre": "Sangiovese Grosso",
-      "descripcion": "Clon del Sangiovese usado en Brunello di Montalcino."
-    },
-    {
-      "nombre": "Gaglioppo",
-      "descripcion": "Uva tinta italiana que da vinos terrosos y especiados."
-    },
-    {
-      "nombre": "Frappato",
-      "descripcion": "Uva siciliana con vinos frescos y aromáticos."
-    },
-    {
-      "nombre": "Lambrusco",
-      "descripcion": "Uva italiana para espumantes tintos, ligeros y afrutados."
-    },
-    {
-      "nombre": "Colombard Sauvignon Blanc",
-      "descripcion": "Mezcla blanca, fresca y cítrica."
-    },
-    {
-      "nombre": "Grillo",
-      "descripcion": "Uva siciliana con vinos minerales y afrutados."
-    },
-    {
-      "nombre": "Grenache Blend",
-      "descripcion": "Mezcla clásica con notas especiadas y frutosas."
-    },
-    {
-      "nombre": "Primitivo",
-      "descripcion": "Uva tinta originaria de Italia, conocida por producir vinos robustos con notas de frutos negros y especias."
-    },
-    {
-      "nombre": "Pedro Ximénez",
-      "descripcion": "Uva blanca española utilizada para hacer vinos dulces y fortificados, con notas de pasas y miel."
-    },
-    {
-      "nombre": "Tokaji",
-      "descripcion": "Variedad de Hungría, famosa por su papel en los vinos de postre Tokaji Aszú, con sabores de albaricoque y miel."
-    },
-    {
-      "nombre": "Inzolia",
-      "descripcion": "Uva blanca siciliana que produce vinos frescos con notas cítricas y de almendra."
-    },
-    {
-      "nombre": "Viura-Chardonnay",
-      "descripcion": "Mezcla que combina la frescura de la Viura con la complejidad del Chardonnay."
-    },
-    {
-      "nombre": "Monastrell-Syrah",
-      "descripcion": "Ensamblaje que une la intensidad de la Monastrell con la suavidad de la Syrah."
-    },
-    {
-      "nombre": "Viognier-Roussanne",
-      "descripcion": "Mezcla blanca que da vinos ricos y aromáticos con notas de frutas tropicales y flores."
-    },
-    {
-      "nombre": "Godello",
-      "descripcion": "Uva blanca gallega que produce vinos frescos y minerales con notas cítricas."
-    },
-    {
-      "nombre": "Syrah-Grenache",
-      "descripcion": "Mezcla clásica del Ródano que combina la potencia de la Syrah con la fruta de la Garnacha."
-    },
-    {
-      "nombre": "Moschofilero",
-      "descripcion": "Variedad griega blanca que produce vinos aromáticos con notas florales y cítricas."
-    },
-    {
-      "nombre": "Graciano",
-      "descripcion": "Uva tinta española que aporta acidez y complejidad a los ensamblajes, especialmente en Rioja."
-    },
-    {
-      "nombre": "Trebbiano",
-      "descripcion": "Uva blanca italiana que produce vinos frescos, ligeros y con alta acidez."
-    },
-    {
-      "nombre": "Trousseau",
-      "descripcion": "Uva tinta francesa de Jura, que da vinos ligeros y especiados."
-    },
-    {
-      "nombre": "Marsanne-Roussanne",
-      "descripcion": "Mezcla blanca del Ródano, que da vinos estructurados con notas de miel y frutos secos."
-    },
-    {
-      "nombre": "Antão Vaz",
-      "descripcion": "Uva blanca portuguesa que produce vinos aromáticos y equilibrados con notas cítricas."
-    },
-    {
-      "nombre": "Scheurebe",
-      "descripcion": "Variedad alemana que da vinos aromáticos con notas de grosella negra y flores."
-    },
-    {
-      "nombre": "Pinotage",
-      "descripcion": "Uva tinta sudafricana que produce vinos robustos con notas de bayas y humo."
-    },
-    {
-      "nombre": "Colorino",
-      "descripcion": "Uva tinta italiana usada para aportar color y estructura en los vinos de Toscana."
-    },
-    {
-      "nombre": "Syrah-Mourvèdre",
-      "descripcion": "Mezcla clásica que une la intensidad especiada de la Syrah con la robustez de la Mourvèdre."
-    },
-    {
-      "nombre": "Tinto Fino",
-      "descripcion": "Nombre local de Tempranillo en Ribera del Duero, que produce vinos elegantes y estructurados."
-    },
-    {
-      "nombre": "Cabernet Franc-Malbec",
-      "descripcion": "Mezcla que combina la elegancia del Cabernet Franc con la fruta del Malbec."
-    },
-    {
-      "nombre": "Picapoll",
-      "descripcion": "Variedad blanca catalana que produce vinos frescos y afrutados, típica de la DO Pla de Bages."
-    },
-    {
-      "nombre": "Teran",
-      "descripcion": "Uva tinta de Croacia que da vinos con alta acidez y notas de frutas rojas."
-    },
-    {
-      "nombre": "Muskat Ottonel",
-      "descripcion": "Uva blanca aromática, popular en Europa central, con sabores dulces y florales."
-    },
-    {
-      "nombre": "Xarel·lo",
-      "descripcion": "Variedad blanca catalana, esencial en los cavas, con buena acidez y aromas herbáceos."
-    },
-    {
-      "nombre": "Provence white blend",
-      "descripcion": "Mezcla blanca del sur de Francia que da vinos frescos con notas de frutas de hueso."
-    },
-    {
-      "nombre": "Nosiola",
-      "descripcion": "Uva blanca italiana del Trentino, conocida por sus vinos secos y de nueces."
-    },
-    {
-      "nombre": "Schiava",
-      "descripcion": "Variedad tinta del Alto Adige, Italia, que produce vinos ligeros y afrutados."
-    },
-    {
-      "nombre": "Falanghina",
-      "descripcion": "Uva blanca del sur de Italia, famosa por sus vinos frescos y minerales."
-    },
-    {
-      "nombre": "Pallagrello",
-      "descripcion": "Uva tinta y blanca de Campania, Italia, que da vinos complejos y equilibrados."
-    },
-    {
-      "nombre": "Casavecchia",
-      "descripcion": "Uva tinta rara de Campania que produce vinos robustos y especiados."
-    },
-    {
-      "nombre": "Blanc du Bois",
-      "descripcion": "Uva híbrida americana que da vinos blancos afrutados y florales."
-    },
-    {
-      "nombre": "Traminette",
-      "descripcion": "Uva híbrida estadounidense que produce vinos aromáticos con notas especiadas y florales."
-    },
-    {
-      "nombre": "Petit Manseng",
-      "descripcion": "Variedad blanca francesa utilizada en vinos dulces y secos con notas tropicales."
-    },
-    {
-      "nombre": "Tannat-Cabernet",
-      "descripcion": "Mezcla que une la estructura del Tannat con la elegancia del Cabernet Sauvignon."
-    },
-    {
-      "nombre": "Tinta de Toro",
-      "descripcion": "Nombre local del Tempranillo en Toro, España, que produce vinos potentes y especiados."
-    },
-    {
-      "nombre": "Traminer",
-      "descripcion": "Variedad aromática que da vinos con notas de rosas y frutas tropicales."
-    },
-    {
-      "nombre": "Gamay Noir",
-      "descripcion": "Uva tinta de Beaujolais que produce vinos ligeros y afrutados."
-    },
-    {
-      "nombre": "Kalecik Karasi",
-      "descripcion": "Uva tinta turca que da vinos elegantes con aromas de frutos rojos y especias."
-    },
-    {
-      "nombre": "Grenache-Syrah",
-      "descripcion": "Mezcla tinta que une la fruta madura de la Grenache con la estructura de la Syrah."
-    },
-    {
-      "nombre": "Sauvignon Blanc-Semillon",
-      "descripcion": "Mezcla blanca clásica de Burdeos con notas herbáceas y cítricas."
-    },
-    {
-      "nombre": "Agiorgitiko",
-      "descripcion": "Variedad tinta griega que produce vinos afrutados y especiados, típicos de Nemea."
-    },
-    {
-      "nombre": "Pinot Meunier",
-      "descripcion": "Uva tinta usada en Champagne, conocida por aportar redondez y fruta."
-    },
-    {
-      "nombre": "Blauburger",
-      "descripcion": "Uva tinta austriaca que produce vinos suaves y afrutados."
-    },
-    {
+      "descripcion": "Base for Sherry, with light and saline flavors."
+    },
+
+   {
+        "nombre": "Alvarinho",
+        "descripcion": "Fresh and mineral, similar to Albariño."
+      },
+      {
+        "nombre": "Merlot-Cabernet Franc",
+        "descripcion": "Balanced blend, smooth and fruity."
+      },
+      {
+        "nombre": "Cabernet Sauvignon-Merlot",
+        "descripcion": "Classic Bordeaux blend, complex and rich."
+      },
+      {
+        "nombre": "Catarratto",
+        "descripcion": "Light and fresh, with citrus hints."
+      },
+      {
+        "nombre": "Castelão",
+        "descripcion": "Robust, with flavors of red fruits and spices."
+      },
+      {
+        "nombre": "Malvasia",
+        "descripcion": "Floral and aromatic, with tropical fruit flavors."
+      },
+      {
+        "nombre": "Prosecco",
+        "descripcion": "Italian sparkling wine, fresh and light."
+      },
+      {
+        "nombre": "Garnacha",
+        "descripcion": "Fruity and spicy, with moderate body."
+      },
+      {
+        "nombre": "Muscat",
+        "descripcion": "Sweet and aromatic, with honey and floral notes."
+      },
+      {
+        "nombre": "Port",
+        "descripcion": "Fortified wine, sweet and rich, typical of Oporto."
+      },
+      {
+        "nombre": "Bordeaux-style White Blend",
+        "descripcion": "Complex blend, with fruit and waxy notes."
+      },
+      {
+        "nombre": "Malbec-Cabernet Sauvignon",
+        "descripcion": "Rich and structured blend."
+      },
+      {
+        "nombre": "Torrontés",
+        "descripcion": "Aromatic and floral, typical of Argentina."
+      },
+      {
+        "nombre": "Mourvèdre",
+        "descripcion": "Rich and tannic, with notes of spices and dark fruits."
+      },
+      {
+        "nombre": "Furmint",
+        "descripcion": "Fresh and mineral, used in Tokaji."
+      },
+      {
+        "nombre": "Rkatsiteli",
+        "descripcion": "Ancient Georgian variety, floral and spicy."
+      },
+      {
+        "nombre": "Saperavi",
+        "descripcion": "Rich and tannic, with dark fruit flavors."
+      },
+      {
+        "nombre": "Bonarda",
+        "descripcion": "Fruity and easy to drink, typical of Argentina."
+      },
+      {
+        "nombre": "Albarossa",
+        "descripcion": "Intense and fruity, with cherry hints."
+      },
+      {
+        "nombre": "Garganega",
+        "descripcion": "Fresh and floral, base for Soave."
+      },
+      {
+        "nombre": "Verdicchio",
+        "descripcion": "Light and citrusy, with almond notes."
+      },
+      {
+        "nombre": "Aligoté",
+        "descripcion": "French white grape known for fresh wines with citrus notes."
+      },
+      {
+        "nombre": "Arneis",
+        "descripcion": "Italian variety producing dry and aromatic white wines."
+      },
+      {
+        "nombre": "Trebbiano Di Lugana",
+        "descripcion": "Italian grape yielding fresh and elegant wines."
+      },
+      {
+        "nombre": "Dolcetto",
+        "descripcion": "Italian red grape producing fruity and light wines."
+      },
+      {
+        "nombre": "Cortese",
+        "descripcion": "Italian white variety famous for Gavi wine."
+      },
+      {
+        "nombre": "Fumé Blanc",
+        "descripcion": "Oak-fermented Sauvignon Blanc, with smoky notes."
+      },
+      {
+        "nombre": "Nero Di Troia",
+        "descripcion": "Italian red grape producing robust and spicy wines."
+      },
+      {
+        "nombre": "Negroamaro",
+        "descripcion": "Southern Italian variety with rich and earthy wines."
+      },
+ 
+      {
+        "nombre": "Marsanne",
+        "descripcion": "White grape from Rhône used in complex and rich wines."
+      },
+      {
+        "nombre": "Tempranillo Garnacha",
+        "descripcion": "Spanish blend with body and fruitiness."
+      },
+      {
+        "nombre": "Refosco",
+        "descripcion": "Italian variety that produces robust and acidic red wines."
+      },
+      {
+        "nombre": "Pecorino",
+        "descripcion": "Italian white grape with fresh and mineral wines."
+      },
+      {
+        "nombre": "Tempranillo Cabernet Sauvignon",
+        "descripcion": "Blend that combines structure and red fruits."
+      },
+      {
+        "nombre": "Alicante Bouschet",
+        "descripcion": "Red grape with red pulp, ideal for intense wines."
+      },
+      {
+        "nombre": "Grenache",
+        "descripcion": "Versatile variety with red fruit and spice notes."
+      },
+      {
+        "nombre": "Malvasia Bianca",
+        "descripcion": "Aromatic white grape with sweet and fresh wines."
+      },
+      {
+        "nombre": "Merlot Tannat",
+        "descripcion": "Blend that provides smoothness and structure."
+      },
+      {
+        "nombre": "Kerner",
+        "descripcion": "German grape that produces aromatic and fruity wines."
+      },
+      {
+        "nombre": "Weissburgunder",
+        "descripcion": "German Pinot Blanc with floral and citrus notes."
+      },
+      {
+        "nombre": "Pinot Nero",
+        "descripcion": "Italian Pinot Noir variety, elegant and complex."
+      },
+      {
+        "nombre": "Turbiana",
+        "descripcion": "Local name for Trebbiano in Lugana, producing fresh wines."
+      },
+      {
+        "nombre": "Malbec Cabernet Franc",
+        "descripcion": "Blend with spicy and fruity notes."
+      },
+      {
+        "nombre": "Garnacha Blanca",
+        "descripcion": "Mediterranean white grape with creamy wines."
+      },
+      {
+        "nombre": "Syrah Tempranillo",
+        "descripcion": "Powerful blend with dark fruits and spices."
+      },
+      {
+        "nombre": "Garnacha Tintorera",
+        "descripcion": "Red grape with high pigmentation and intense wines."
+      },
+      {
+        "nombre": "Premsal",
+        "descripcion": "White grape from Mallorca with fresh and delicate wines."
+      },
+      {
+        "nombre": "Petit Verdot",
+        "descripcion": "Red variety with spicy and tannic wines."
+      },
+      {
+        "nombre": "Rosado",
+        "descripcion": "Light and fruity wine, ideal for warm climates."
+      },
+      {
+        "nombre": "Moscato",
+        "descripcion": "Aromatic white grape, famous for sweet wines."
+      },
+      {
+        "nombre": "Malbec Syrah",
+        "descripcion": "Blend with body, dark fruit, and spice notes."
+      },
+      {
+        "nombre": "St. Laurent",
+        "descripcion": "Austrian red grape with fruity and elegant wines."
+      },
+      {
+        "nombre": "Austrian White Blend",
+        "descripcion": "White blend with freshness and vibrant acidity."
+      },
+      {
+        "nombre": "Viura",
+        "descripcion": "Spanish grape used in fresh and aged white wines."
+      },
+      {
+        "nombre": "Pinot Bianco",
+        "descripcion": "Italian grape with light and floral wines."
+      },
+      {
+        "nombre": "Touriga Nacional",
+        "descripcion": "Portuguese variety with intense and floral wines."
+      },
+      {
+        "nombre": "Lambrusco Grasparossa",
+        "descripcion": "Red grape for sparkling wines with red fruit notes."
+      },
+      {
+        "nombre": "Sangiovese Grosso",
+        "descripcion": "Clone of Sangiovese used in Brunello di Montalcino."
+      },
+      {
+        "nombre": "Gaglioppo",
+        "descripcion": "Italian red grape that produces earthy and spicy wines."
+      },
+      {
+        "nombre": "Frappato",
+        "descripcion": "Sicilian grape with fresh and aromatic wines."
+      },
+      {
+        "nombre": "Lambrusco",
+        "descripcion": "Italian grape for light and fruity sparkling reds."
+      },
+      {
+        "nombre": "Colombard Sauvignon Blanc",
+        "descripcion": "White blend, fresh and citrusy."
+      },
+      {
+        "nombre": "Grillo",
+        "descripcion": "Sicilian grape with mineral and fruity wines."
+      },
+
+   {
+        "nombre": "Grenache Blend",
+        "descripcion": "Classic blend with spicy and fruity notes."
+      },
+      {
+        "nombre": "Primitivo",
+        "descripcion": "Red grape variety from Italy, known for producing robust wines with notes of black fruits and spices."
+      },
+      {
+        "nombre": "Pedro Ximénez",
+        "descripcion": "Spanish white grape used to make sweet and fortified wines, with notes of raisins and honey."
+      },
+      {
+        "nombre": "Tokaji",
+        "descripcion": "Hungarian variety, famous for its role in Tokaji Aszú dessert wines, with flavors of apricot and honey."
+      },
+      {
+        "nombre": "Inzolia",
+        "descripcion": "Sicilian white grape that produces fresh wines with citrus and almond notes."
+      },
+      {
+        "nombre": "Viura-Chardonnay",
+        "descripcion": "Blend that combines the freshness of Viura with the complexity of Chardonnay."
+      },
+      {
+        "nombre": "Monastrell-Syrah",
+        "descripcion": "Blend that combines the intensity of Monastrell with the smoothness of Syrah."
+      },
+      {
+        "nombre": "Viognier-Roussanne",
+        "descripcion": "White blend that gives rich and aromatic wines with notes of tropical fruits and flowers."
+      },
+      {
+        "nombre": "Godello",
+        "descripcion": "Galician white grape that produces fresh and mineral wines with citrus notes."
+      },
+      {
+        "nombre": "Syrah-Grenache",
+        "descripcion": "Classic Rhône blend that combines the power of Syrah with the fruitiness of Grenache."
+      },
+      {
+        "nombre": "Moschofilero",
+        "descripcion": "Greek white variety that produces aromatic wines with floral and citrus notes."
+      },
+      {
+        "nombre": "Graciano",
+        "descripcion": "Spanish red grape that adds acidity and complexity to blends, especially in Rioja."
+      },
+      {
+        "nombre": "Trebbiano",
+        "descripcion": "Italian white grape that produces fresh, light wines with high acidity."
+      },
+      {
+        "nombre": "Trousseau",
+        "descripcion": "French red grape from Jura that gives light, spicy wines."
+      },
+      {
+        "nombre": "Marsanne-Roussanne",
+        "descripcion": "Rhône white blend that gives structured wines with notes of honey and nuts."
+      },
+      {
+        "nombre": "Antão Vaz",
+        "descripcion": "Portuguese white grape that produces aromatic and balanced wines with citrus notes."
+      },
+      {
+        "nombre": "Scheurebe",
+        "descripcion": "German variety that gives aromatic wines with notes of black currant and flowers."
+      },
+      {
+        "nombre": "Pinotage",
+        "descripcion": "South African red grape that produces robust wines with notes of berries and smoke."
+      },
+      {
+        "nombre": "Colorino",
+        "descripcion": "Italian red grape used to add color and structure to wines from Tuscany."
+      },
+      {
+        "nombre": "Syrah-Mourvèdre",
+        "descripcion": "Classic blend that combines the spicy intensity of Syrah with the robustness of Mourvèdre."
+      },
+      {
+        "nombre": "Tinto Fino",
+        "descripcion": "Local name for Tempranillo in Ribera del Duero, producing elegant and structured wines."
+      },
+      {
+        "nombre": "Cabernet Franc-Malbec",
+        "descripcion": "Blend that combines the elegance of Cabernet Franc with the fruitiness of Malbec."
+      },
+      {
+        "nombre": "Picapoll",
+        "descripcion": "Catalan white variety that produces fresh and fruity wines, typical of the DO Pla de Bages."
+      },
+      {
+        "nombre": "Teran",
+        "descripcion": "Croatian red grape that produces wines with high acidity and red fruit notes."
+      },
+      {
+        "nombre": "Muskat Ottonel",
+        "descripcion": "Aromatic white grape, popular in Central Europe, with sweet and floral flavors."
+      },
+      {
+        "nombre": "Xarel·lo",
+        "descripcion": "Catalan white variety, essential in cavas, with good acidity and herbaceous aromas."
+      },
+      {
+        "nombre": "Provence white blend",
+        "descripcion": "White blend from southern France that gives fresh wines with stone fruit notes."
+      },
+      {
+        "nombre": "Nosiola",
+        "descripcion": "Italian white grape from Trentino, known for its dry wines with nutty flavors."
+      },
+      {
+        "nombre": "Schiava",
+        "descripcion": "Red variety from Alto Adige, Italy, that produces light and fruity wines."
+      },
+      {
+        "nombre": "Falanghina",
+        "descripcion": "Southern Italian white grape, famous for its fresh and mineral wines."
+      },
+      {
+        "nombre": "Pallagrello",
+        "descripcion": "Red and white grape from Campania, Italy, that gives complex and balanced wines."
+      },
+      {
+        "nombre": "Casavecchia",
+        "descripcion": "Rare red grape from Campania that produces robust and spicy wines."
+      },
+      {
+        "nombre": "Blanc du Bois",
+        "descripcion": "American hybrid white grape that produces fruity and floral wines."
+      },
+      {
+        "nombre": "Traminette",
+        "descripcion": "American hybrid grape that produces aromatic wines with spicy and floral notes."
+      },
+      {
+        "nombre": "Petit Manseng",
+        "descripcion": "French white variety used in both sweet and dry wines with tropical notes."
+      },
+      {
+        "nombre": "Tannat-Cabernet",
+        "descripcion": "Blend that combines the structure of Tannat with the elegance of Cabernet Sauvignon."
+      },
+      {
+        "nombre": "Tinta de Toro",
+        "descripcion": "Local name for Tempranillo in Toro, Spain, producing powerful and spicy wines."
+      },
+      {
+        "nombre": "Traminer",
+        "descripcion": "Aromatic variety that produces wines with notes of roses and tropical fruits."
+      },
+      {
+        "nombre": "Gamay Noir",
+        "descripcion": "Red grape from Beaujolais that produces light and fruity wines."
+      },
+      {
+        "nombre": "Kalecik Karasi",
+        "descripcion": "Turkish red grape that produces elegant wines with red fruit and spice aromas."
+      },
+      {
+        "nombre": "Grenache-Syrah",
+        "descripcion": "Red blend that combines the ripe fruit of Grenache with the structure of Syrah."
+      },
+      {
+        "nombre": "Sauvignon Blanc-Semillon",
+        "descripcion": "Classic white blend from Bordeaux with herbaceous and citrus notes."
+      },
+      {
+        "nombre": "Agiorgitiko",
+        "descripcion": "Greek red variety that produces fruity and spicy wines, typical of Nemea."
+      },
+      {
+        "nombre": "Pinot Meunier",
+        "descripcion": "Red grape used in Champagne, known for adding roundness and fruitiness."
+      },
+      {
+        "nombre": "Blauburger",
+        "descripcion": "Austrian red grape that produces smooth and fruity wines."
+      },
+
+  {
       "nombre": "Viosinho",
-      "descripcion": "Uva blanca portuguesa utilizada en vinos blancos frescos y en mezclas para Oporto."
+      "descripcion": "Portuguese white grape used in fresh white wines and blends for Port."
     },
     {
       "nombre": "Gouveio",
-      "descripcion": "Variedad blanca portuguesa que aporta frescura y cuerpo a los vinos blancos y fortificados."
+      "descripcion": "Portuguese white variety that adds freshness and body to white and fortified wines."
     },
     {
       "nombre": "Fer Servadou",
-      "descripcion": "Uva tinta del suroeste de Francia, conocida por sus notas especiadas y afrutadas."
+      "descripcion": "Red grape from the southwest of France, known for its spicy and fruity notes."
     },
     {
       "nombre": "Seyval Blanc",
-      "descripcion": "Uva híbrida popular en climas fríos, que da vinos blancos frescos y cítricos."
+      "descripcion": "Hybrid grape popular in cold climates, producing fresh and citrusy white wines."
     },
     {
       "nombre": "Verdejo-Sauvignon Blanc",
-      "descripcion": "Mezcla blanca que combina la frescura del Verdejo con el carácter herbáceo del Sauvignon Blanc."
+      "descripcion": "White blend that combines the freshness of Verdejo with the herbaceous character of Sauvignon Blanc."
     },
     {
       "nombre": "Rotgipfler",
-      "descripcion": "Variedad blanca austriaca que produce vinos aromáticos y equilibrados."
+      "descripcion": "Austrian white variety that produces aromatic and balanced wines."
     },
     {
       "nombre": "Lemberger",
-      "descripcion": "Nombre alemán del Blaufränkisch, una uva tinta que produce vinos ricos y especiados."
+      "descripcion": "German name for Blaufränkisch, a red grape that produces rich and spicy wines."
     },
     {
       "nombre": "Picolit",
-      "descripcion": "Uva blanca italiana que da vinos dulces y elegantes con notas de miel y frutas secas."
+      "descripcion": "Italian white grape that produces sweet and elegant wines with honey and dried fruit notes."
     },
     {
       "nombre": "Müller-Thurgau",
-      "descripcion": "Variedad blanca alemana que produce vinos ligeros y aromáticos."
+      "descripcion": "German white variety that produces light and aromatic wines."
     },
     {
       "nombre": "Ansonica",
-      "descripcion": "Uva blanca italiana, también conocida como Inzolia, usada para vinos frescos y ligeros."
+      "descripcion": "Italian white grape, also known as Inzolia, used for fresh and light wines."
     },
     {
       "nombre": "Tannat-Cabernet Franc",
-      "descripcion": "Mezcla que une la potencia del Tannat con la elegancia del Cabernet Franc."
+      "descripcion": "Blend that combines the power of Tannat with the elegance of Cabernet Franc."
     },
     {
       "nombre": "Loin de l'Oeil",
-      "descripcion": "Uva blanca del suroeste de Francia que da vinos con notas florales y de frutas maduras."
+      "descripcion": "White grape from southwest France that produces wines with floral and ripe fruit notes."
     },
     {
       "nombre": "Piedirosso",
-      "descripcion": "Uva tinta italiana de Campania que produce vinos ligeros y especiados."
+      "descripcion": "Italian red grape from Campania that produces light and spicy wines."
     },
     {
       "nombre": "Tinta Madeira",
-      "descripcion": "Variedad tinta portuguesa utilizada en vinos fortificados y secos."
+      "descripcion": "Portuguese red variety used in fortified and dry wines."
     },
     {
       "nombre": "Carmenère-Syrah",
-      "descripcion": "Mezcla tinta que combina la fruta especiada del Carmenère con la robustez de la Syrah."
+      "descripcion": "Red blend that combines the spicy fruitiness of Carmenère with the robustness of Syrah."
     },
     {
       "nombre": "Centesimino",
-      "descripcion": "Uva tinta italiana rara de Emilia-Romagna, conocida por sus vinos aromáticos y especiados."
+      "descripcion": "Rare Italian red grape from Emilia-Romagna, known for its aromatic and spicy wines."
     },
     {
       "nombre": "Zierfandler-Rotgipfler",
-      "descripcion": "Mezcla blanca de Austria, que produce vinos ricos con notas de frutas tropicales."
+      "descripcion": "Austrian white blend that produces rich wines with tropical fruit notes."
     },
     {
       "nombre": "Black Muscat",
-      "descripcion": "Uva aromática, ideal para vinos dulces con notas de uvas pasas y flores."
+      "descripcion": "Aromatic grape, ideal for sweet wines with raisin and floral notes."
     },
     {
       "nombre": "Ugni Blanc",
-      "descripcion": "Uva blanca francesa utilizada principalmente en la producción de coñac y armagnac."
+      "descripcion": "French white grape primarily used in the production of cognac and armagnac."
     },
     {
       "nombre": "Gros and Petit Manseng",
-      "descripcion": "Variedades blancas francesas utilizadas en vinos dulces y secos con gran acidez y complejidad."
+      "descripcion": "French white varieties used in sweet and dry wines with great acidity and complexity."
     },
     {
       "nombre": "Shiraz-Grenache",
-      "descripcion": "Mezcla tinta que combina la intensidad especiada del Shiraz con la fruta de la Grenache."
+      "descripcion": "Red blend that combines the spicy intensity of Shiraz with the fruitiness of Grenache."
     },
     {
       "nombre": "Grenache Gris",
-      "descripcion": "Mutación de la Garnacha, utilizada en vinos blancos y rosados con cuerpo y carácter."
+      "descripcion": "Mutation of Grenache, used in white and rosé wines with body and character."
     },
     {
       "nombre": "Alfrocheiro",
-      "descripcion": "Uva tinta portuguesa que da vinos equilibrados con notas de frutos negros y especias."
+      "descripcion": "Portuguese red grape that produces balanced wines with black fruit and spice notes."
     },
     {
       "nombre": "Nuragus",
-      "descripcion": "Variedad blanca de Cerdeña que produce vinos ligeros con notas cítricas."
+      "descripcion": "Sardinian white variety that produces light wines with citrus notes."
     },
     {
       "nombre": "Cabernet Sauvignon-Malbec",
-      "descripcion": "Mezcla tinta que une la estructura del Cabernet Sauvignon con la fruta del Malbec."
+      "descripcion": "Red blend that combines the structure of Cabernet Sauvignon with the fruitiness of Malbec."
     },
     {
       "nombre": "Vidal",
-      "descripcion": "Uva híbrida utilizada principalmente en vinos de hielo en Canadá, con sabores dulces y tropicales."
+      "descripcion": "Hybrid grape primarily used in ice wines in Canada, with sweet and tropical flavors."
     },
     {
       "nombre": "Grenache-Shiraz",
-      "descripcion": "Mezcla clásica australiana que combina la suavidad de la Grenache con la potencia del Shiraz."
+      "descripcion": "Classic Australian blend that combines the softness of Grenache with the power of Shiraz."
     },
     {
       "nombre": "Malbec-Tannat",
-      "descripcion": "Ensamblaje tinta que une la fruta del Malbec con la robustez del Tannat."
+      "descripcion": "Red blend that combines the fruit of Malbec with the robustness of Tannat."
     },
     {
       "nombre": "Vidal Blanc",
-      "descripcion": "Uva híbrida blanca que da vinos frescos y es conocida por su uso en vinos de hielo."
+      "descripcion": "Hybrid white grape that produces fresh wines and is known for its use in ice wines."
     },
     {
       "nombre": "Garnacha-Monastrell",
-      "descripcion": "Mezcla tinta mediterránea con notas de frutas maduras y especias."
+      "descripcion": "Mediterranean red blend with notes of ripe fruit and spice."
     },
     {
       "nombre": "Tocai",
-      "descripcion": "Variedad blanca italiana utilizada en vinos secos y ligeros, con notas de frutas y flores."
+      "descripcion": "Italian white variety used in dry and light wines with fruit and floral notes."
     },
     {
       "nombre": "Manzoni",
-      "descripcion": "Variedad italiana híbrida que da vinos blancos frescos y aromáticos."
+      "descripcion": "Italian hybrid variety that produces fresh and aromatic white wines."
     },
     {
       "nombre": "Sauvignon Gris",
-      "descripcion": "Mutación del Sauvignon Blanc, con un perfil más aromático y exótico."
+      "descripcion": "Mutation of Sauvignon Blanc, with a more aromatic and exotic profile."
     },
     {
       "nombre": "Prugnolo Gentile",
-      "descripcion": "Nombre local de Sangiovese en Montepulciano, utilizado en vinos elegantes y complejos."
+      "descripcion": "Local name for Sangiovese in Montepulciano, used in elegant and complex wines."
     },
     {
       "nombre": "Tinta Fina",
-      "descripcion": "Sinónimo de Tempranillo en Ribera del Duero, da vinos estructurados y elegantes."
+      "descripcion": "Synonym for Tempranillo in Ribera del Duero, producing structured and elegant wines."
     },
     {
       "nombre": "Trajadura",
-      "descripcion": "Uva blanca portuguesa que da vinos frescos y ligeros, frecuentemente mezclada en Vinho Verde."
+      "descripcion": "Portuguese white grape that produces fresh and light wines, often blended in Vinho Verde."
     },
     {
       "nombre": "Macabeo-Chardonnay",
-      "descripcion": "Mezcla blanca que combina la frescura del Macabeo con la elegancia del Chardonnay."
+      "descripcion": "White blend that combines the freshness of Macabeo with the elegance of Chardonnay."
     },
     {
       "nombre": "Prieto Picudo",
-      "descripcion": "Uva tinta española que produce vinos afrutados y frescos con buena acidez."
+      "descripcion": "Spanish red grape that produces fruity and fresh wines with good acidity."
     },
     {
       "nombre": "Merlot-Malbec",
-      "descripcion": "Mezcla tinta que une la suavidad del Merlot con la intensidad del Malbec."
+      "descripcion": "Red blend that combines the softness of Merlot with the intensity of Malbec."
     },
     {
       "nombre": "Grecanico",
-      "descripcion": "Variedad blanca siciliana que da vinos frescos y cítricos."
+      "descripcion": "Sicilian white variety that produces fresh and citrusy wines."
     },
     {
       "nombre": "Chenin Blanc-Chardonnay",
-      "descripcion": "Mezcla blanca que combina la acidez del Chenin Blanc con la estructura del Chardonnay."
+      "descripcion": "White blend that combines the acidity of Chenin Blanc with the structure of Chardonnay."
     },
     {
       "nombre": "Carineña",
-      "descripcion": "Uva tinta española conocida también como Mazuelo, que da vinos robustos con notas especiadas."
+      "descripcion": "Spanish red grape also known as Mazuelo, producing robust wines with spicy notes."
     },
     {
       "nombre": "Colombard",
-      "descripcion": "Uva blanca francesa utilizada en vinos frescos y en la producción de aguardientes."
+      "descripcion": "French white grape used in fresh wines and in the production of brandy."
     },
     {
       "nombre": "Erbaluce",
-      "descripcion": "Variedad blanca italiana que da vinos secos, espumosos y dulces, con notas cítricas y minerales."
+      "descripcion": "Italian white variety that produces dry, sparkling, and sweet wines with citrus and mineral notes."
     },
     {
       "nombre": "Chenin Blanc-Sauvignon Blanc",
-      "descripcion": "Mezcla blanca que une la frescura del Chenin Blanc con el carácter herbáceo del Sauvignon Blanc."
+      "descripcion": "White blend that combines the freshness of Chenin Blanc with the herbaceous character of Sauvignon Blanc."
     },
     {
       "nombre": "Merlot-Petite Verdot",
-      "descripcion": "Ensamblaje tinta que combina la suavidad del Merlot con la intensidad del Petit Verdot."
+      "descripcion": "Red blend that combines the softness of Merlot with the intensity of Petit Verdot."
     },
-    {
+
+  {
       "nombre": "Syrah-Petite Sirah",
-      "descripcion": "Mezcla que une la complejidad de la Syrah con la estructura de la Petite Sirah."
+      "descripcion": "A blend that combines the complexity of Syrah with the structure of Petite Sirah."
     },
     {
       "nombre": "Susumaniello",
-      "descripcion": "Uva tinta italiana de Puglia, conocida por sus vinos potentes y afrutados."
+      "descripcion": "An Italian red grape from Puglia, known for its powerful and fruity wines."
     },
     {
       "nombre": "Merlot-Cabernet",
-      "descripcion": "Mezcla tinta clásica que da vinos equilibrados con notas de frutas maduras y especias."
+      "descripcion": "A classic red blend that produces balanced wines with notes of ripe fruits and spices."
     },
     {
       "nombre": "Encruzado",
-      "descripcion": "Uva blanca portuguesa que produce vinos frescos y elegantes, con potencial de envejecimiento."
+      "descripcion": "A Portuguese white grape that produces fresh and elegant wines, with aging potential."
     },
     {
       "nombre": "Counoise",
-      "descripcion": "Variedad tinta del Ródano que aporta frescura y especias a los ensamblajes."
+      "descripcion": "A red variety from the Rhône region that adds freshness and spices to blends."
     },
     {
       "nombre": "Cabernet Moravia",
-      "descripcion": "Uva tinta checa que da vinos afrutados y equilibrados."
+      "descripcion": "A Czech red grape that produces fruity and balanced wines."
     },
     {
       "nombre": "Syrah-Carignan",
-      "descripcion": "Mezcla tinta que combina la intensidad de la Syrah con la rusticidad del Carignan."
+      "descripcion": "A red blend combining the intensity of Syrah with the rusticity of Carignan."
     },
     {
       "nombre": "Touriga",
-      "descripcion": "Grupo de variedades tintas portuguesas, esenciales en la producción de Oporto y vinos secos potentes."
+      "descripcion": "A group of Portuguese red varieties, essential in the production of Port and powerful dry wines."
     },
     {
       "nombre": "Portuguese Sparkling",
-      "descripcion": "Categoría de vinos espumosos de Portugal, elaborados con variedades locales."
+      "descripcion": "A category of sparkling wines from Portugal, made with local varieties."
     },
     {
       "nombre": "Orange Muscat",
-      "descripcion": "Uva aromática que da vinos dulces con notas de cítricos y flores."
+      "descripcion": "Aromatic grape that produces sweet wines with notes of citrus and flowers."
     },
     {
       "nombre": "Assyrtiko",
-      "descripcion": "Uva blanca griega conocida por sus vinos secos, minerales y cítricos, originaria de Santorini."
+      "descripcion": "A Greek white grape known for its dry, mineral, and citrus wines, originally from Santorini."
     },
     {
       "nombre": "Pinot Auxerrois",
-      "descripcion": "Variedad blanca de Alsacia, utilizada en vinos suaves con notas de frutas y flores."
+      "descripcion": "A white variety from Alsace, used in wines with smooth fruit and floral notes."
     },
     {
       "nombre": "Ramisco",
-      "descripcion": "Uva tinta portuguesa de Colares, conocida por vinos longevos con alta acidez y taninos marcados."
+      "descripcion": "A Portuguese red grape from Colares, known for its long-lived wines with high acidity and pronounced tannins."
     },
     {
       "nombre": "Muscat Canelli",
-      "descripcion": "Variedad aromática de la familia Muscat, ideal para vinos dulces y espumosos con notas florales."
+      "descripcion": "Aromatic variety from the Muscat family, ideal for sweet and sparkling wines with floral notes."
     },
     {
       "nombre": "Catalanesca",
-      "descripcion": "Uva blanca italiana originaria de Campania, utilizada en vinos frescos y frutales."
+      "descripcion": "An Italian white grape from Campania, used in fresh and fruity wines."
     },
     {
       "nombre": "Listán Negro",
-      "descripcion": "Variedad tinta canaria que da vinos frescos, ligeros y afrutados con un toque mineral."
+      "descripcion": "A Canarian red variety that produces fresh, light, and fruity wines with a mineral touch."
     },
     {
       "nombre": "Portuguiser",
-      "descripcion": "Uva tinta centroeuropea que produce vinos suaves, ligeros y fáciles de beber."
+      "descripcion": "A Central European red grape that produces smooth, light, and easy-to-drink wines."
     },
     {
       "nombre": "Bobal",
-      "descripcion": "Variedad tinta española que da vinos intensos con notas de frutos negros y buena acidez."
+      "descripcion": "A Spanish red variety that produces intense wines with notes of black fruits and good acidity."
     },
     {
       "nombre": "Gewürztraminer-Riesling",
-      "descripcion": "Mezcla blanca que combina la intensidad aromática del Gewürztraminer con la frescura del Riesling."
+      "descripcion": "A white blend combining the aromatic intensity of Gewürztraminer with the freshness of Riesling."
     },
     {
       "nombre": "Sauvignon Blanc-Verdejo",
-      "descripcion": "Ensamblaje fresco y herbáceo que une la estructura del Verdejo con el carácter del Sauvignon Blanc."
+      "descripcion": "A fresh and herbaceous blend that combines the structure of Verdejo with the character of Sauvignon Blanc."
     },
     {
       "nombre": "Cabernet Franc-Merlot",
-      "descripcion": "Mezcla tinta clásica de Burdeos, con notas de frutas rojas, especias y taninos suaves."
+      "descripcion": "A classic Bordeaux red blend with notes of red fruits, spices, and smooth tannins."
     },
     {
       "nombre": "Grenache-Mourvèdre",
-      "descripcion": "Combinación tinta mediterránea que da vinos potentes, especiados y con notas de frutas maduras."
+      "descripcion": "A Mediterranean red blend that produces powerful, spicy wines with notes of ripe fruits."
     },
     {
       "nombre": "Grauburgunder",
-      "descripcion": "Nombre alemán del Pinot Gris, conocido por vinos ricos y estructurados."
+      "descripcion": "The German name for Pinot Gris, known for rich and structured wines."
     },
     {
       "nombre": "Shiraz-Cabernet",
-      "descripcion": "Ensamblaje tinta típico de Australia, que combina la intensidad especiada del Shiraz con la estructura del Cabernet."
+      "descripcion": "A typical Australian red blend that combines the spicy intensity of Shiraz with the structure of Cabernet."
     },
     {
       "nombre": "Chardonnay-Pinot Blanc",
-      "descripcion": "Mezcla blanca elegante que une la cremosidad del Chardonnay con la frescura del Pinot Blanc."
+      "descripcion": "An elegant white blend that combines the creaminess of Chardonnay with the freshness of Pinot Blanc."
     },
     {
       "nombre": "Cabernet Sauvignon-Cabernet Franc",
-      "descripcion": "Mezcla tinta clásica con notas de frutas negras, especias y buena estructura."
+      "descripcion": "A classic red blend with notes of black fruits, spices, and good structure."
     },
     {
       "nombre": "Syrah-Viognier",
-      "descripcion": "Combinación inspirada en el norte del Ródano, que da vinos tintos aromáticos y elegantes."
+      "descripcion": "A blend inspired by the Northern Rhône, producing aromatic and elegant red wines."
     },
     {
       "nombre": "Zierfandler",
-      "descripcion": "Variedad blanca austríaca que da vinos ricos y complejos, con buen potencial de envejecimiento."
+      "descripcion": "An Austrian white variety that produces rich and complex wines, with good aging potential."
     },
     {
       "nombre": "Carignane",
-      "descripcion": "Uva tinta mediterránea utilizada en vinos robustos con notas especiadas y de frutas negras."
+      "descripcion": "A Mediterranean red grape used in robust wines with spicy and black fruit notes."
     },
     {
       "nombre": "Garnacha-Cabernet",
-      "descripcion": "Mezcla tinta que une la fruta madura de la Garnacha con la estructura del Cabernet Sauvignon."
+      "descripcion": "A red blend that combines the ripe fruit of Garnacha with the structure of Cabernet Sauvignon."
     },
     {
       "nombre": "Garnacha-Tempranillo",
-      "descripcion": "Ensamblaje español clásico, equilibrado y con notas de frutos rojos y especias."
+      "descripcion": "A classic Spanish blend, balanced with notes of red fruits and spices."
     },
     {
       "nombre": "Pignoletto",
-      "descripcion": "Uva blanca italiana de Emilia-Romaña, utilizada en vinos espumosos y frescos."
+      "descripcion": "An Italian white grape from Emilia-Romagna, used in fresh and sparkling wines."
     },
     {
       "nombre": "Pinot Blanc-Chardonnay",
-      "descripcion": "Mezcla blanca que combina frescura y elegancia, ideal para vinos espumosos y tranquilos."
+      "descripcion": "A white blend that combines freshness and elegance, ideal for sparkling and still wines."
     },
     {
       "nombre": "Malvasia di Candia",
-      "descripcion": "Variedad blanca italiana que produce vinos aromáticos con notas florales y de miel."
+      "descripcion": "An Italian white variety that produces aromatic wines with floral and honey notes."
     },
     {
       "nombre": "Pallagrello Nero",
-      "descripcion": "Uva tinta rara del sur de Italia, conocida por sus vinos potentes y especiados."
+      "descripcion": "A rare red grape from southern Italy, known for its powerful and spicy wines."
     },
     {
       "nombre": "Hondarrabi Zuri",
-      "descripcion": "Uva blanca del País Vasco, base del Txakoli, con acidez fresca y notas cítricas."
+      "descripcion": "A white grape from the Basque Country, the base for Txakoli, with fresh acidity and citrus notes."
     },
     {
       "nombre": "Touriga Nacional-Cabernet Sauvignon",
-      "descripcion": "Mezcla tinta que combina la estructura del Cabernet Sauvignon con la intensidad floral de la Touriga Nacional."
+      "descripcion": "A red blend that combines the structure of Cabernet Sauvignon with the floral intensity of Touriga Nacional."
     },
     {
       "nombre": "Tempranillo Blanco",
-      "descripcion": "Mutación blanca del Tempranillo, utilizada en vinos frescos y ligeros."
+      "descripcion": "A white mutation of Tempranillo, used in fresh and light wines."
     },
     {
       "nombre": "Mataro",
-      "descripcion": "Otro nombre para Monastrell, conocido por vinos intensos con notas de frutas negras y especias."
+      "descripcion": "Another name for Monastrell, known for intense wines with black fruit and spice notes."
     },
     {
       "nombre": "Welschriesling",
-      "descripcion": "Variedad blanca centroeuropea que da vinos frescos y aromáticos, ideales para vinos dulces."
+      "descripcion": "A Central European white variety that produces fresh and aromatic wines, ideal for sweet wines."
     },
     {
       "nombre": "Muscadelle",
-      "descripcion": "Uva blanca francesa utilizada en vinos dulces y secos con notas florales."
+      "descripcion": "A white French grape used in sweet and dry wines with floral notes."
     },
     {
       "nombre": "Bual",
-      "descripcion": "Variedad utilizada en Madeira, conocida por vinos semidulces y complejos con notas de frutos secos."
+      "descripcion": "A variety used in Madeira, known for semi-sweet and complex wines with nutty notes."
     },
     {
       "nombre": "Symphony",
-      "descripcion": "Uva híbrida blanca, ideal para vinos dulces y aromáticos."
+      "descripcion": "A hybrid white grape, ideal for sweet and aromatic wines."
     },
     {
       "nombre": "Groppello",
-      "descripcion": "Variedad tinta italiana del Lago de Garda que da vinos ligeros y especiados."
+      "descripcion": "An Italian red variety from Lake Garda, producing light and spicy wines."
     },
     {
       "nombre": "Roter Traminer",
-      "descripcion": "Variante del Traminer, con vinos aromáticos y de buena acidez."
+      "descripcion": "A variant of Traminer, with aromatic wines and good acidity."
     },
     {
       "nombre": "Garnacha-Cariñena",
-      "descripcion": "Mezcla tinta mediterránea con cuerpo y notas de frutas maduras."
+      "descripcion": "A Mediterranean red blend with body and notes of ripe fruits."
     },
     {
       "nombre": "Kekfrankos",
-      "descripcion": "Nombre húngaro del Blaufränkisch, utilizado en vinos especiados y afrutados."
+      "descripcion": "The Hungarian name for Blaufränkisch, used in spicy and fruity wines."
     },
     {
       "nombre": "Gamza",
-      "descripcion": "Variedad tinta búlgara, conocida por vinos ligeros y frescos con notas de frutas rojas."
+      "descripcion": "A Bulgarian red variety, known for light and fresh wines with red fruit notes."
     }
+
+
+
+
   ]
 }
