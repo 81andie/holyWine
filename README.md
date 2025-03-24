@@ -1,4 +1,5 @@
 # The HolyWine 🍷
+[Ver la página web](https://81andie.github.io/holyWine/)
 
 ![mockDrop_Beer or Tea_ (11) (2)](https://github.com/user-attachments/assets/7370450e-9a95-4bf9-bb67-ebcde25396e9)
 
@@ -12,4 +13,21 @@ Antes de ejecutar este proyecto, asegúrate de tener instalado:
 Node.js (recomendado la versión 18.x o superior)
 npm (gestor de paquetes de Node.js)
 Angular CLI (version 10.0.2)
+
+
+### 1️⃣ Clonar el repositorio  
+```bash
+https://github.com/81andie/holyWine.git
+cd Aqvae
+
+```
+
+### Ejecutar en modo desarrollo
+
+```bash
+ng serve
+
+```
+
+
 
