@@ -4,25 +4,39 @@
     <mat-label class="text-xs">Search here for the wine brand...</mat-label>
     <div class="flex">
       <input matInput placeholder="Cabernet Saugvignon" value="Wine" [formControl]="myInput" (keyup)="filteredWines($event)">
-      <button mat-raised-button (click)="resetSearchInput()" class="text-xs w-28 ml-2"><mat-icon class="text-xs">delete</mat-icon>Delete</button>
+      <button mat-raised-button (click)="resetSearchInput()" class="text-xs w-32 ">delete<mat-icon class="text-xs p-0.5">delete</mat-icon></button>
     </div>
 
   </mat-form-field>
 
 </form>
 
+@if(isLoading){
 
-@if(wines.length > 0){
+  <div class="flex justify-center z-50 ">
+ <div class="flex bg-slate-200 border rounded-md absolute justify-center place-items-center z-50 w-72 h-72  gap-2">
+     <div class="absolute flex flex-col justify-items-stretch w-full h-full bg-zinc-200">
+
+    <div class="relative flex flex-row justify-center justify-items-center w-10/12 m-auto ">
+      <img src="marron.png" class="w-60  h-60 object-contain logo1 ">
+    </div>
+
+    <div class="relative w-full h-full ">
+      <mat-progress-bar mode="indeterminate" class="items-center">Loading...</mat-progress-bar>
+      <p class="text-fuchsia-800  text-sm text-center font-extralight ">looking for your wine ...</p>
+    </div>
+  </div>
+  </div>
+</div>
+}
+@else if (wines.length > 0) {
   <div class="flex justify-center">
     <p class="text-center p-3 m-2 mb-4 w-full md:w-10/12 bg-fuchsia-300">These matches have been found</p>
   </div>
 
- }@else{
-  <div class="flex justify-center">
-    <p class="text-center  p-2 mb-4 w-full md:w-10/12 bg-fuchsia-100"></p>
-    <p class="text-center  p-2 mb-4 w-full md:w-10/12 bg-fuchsia-100"></p>
-  </div>
  }
+
+
 
 
     <div class="flex flex-wrap gap-4 justify-center bg-zinc-50" >
@@ -98,7 +112,5 @@
 
 <app-cards></app-cards>
 <app-footer></app-footer>
-
-
 
 

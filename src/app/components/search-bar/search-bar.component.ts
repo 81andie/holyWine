@@ -1,9 +1,10 @@
 
 import { Component, OnDestroy, OnInit } from '@angular/core';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms'
-import { Wine} from '../../interfaces/winecard.interface';
+import { Wine } from '../../interfaces/winecard.interface';
 import { WineCardService } from '../../services/wine-card-service';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
@@ -13,13 +14,14 @@ import { CardsComponent } from "../cards/cards.component";
 import { Subscription } from 'rxjs';
 import { FooterComponent } from "../footer/footer.component";
 import { QRCodeComponent } from 'angularx-qrcode';
+import { MatProgressBarModule } from "@angular/material/progress-bar";
 
 
 
 
 @Component({
   selector: 'app-search-bar',
-  imports: [FormsModule, MatFormFieldModule, MatInputModule, ReactiveFormsModule, MatCardModule, MatChipsModule, MatIconModule, MatButtonModule, CardsComponent, FooterComponent],
+  imports: [FormsModule, MatFormFieldModule, MatInputModule, ReactiveFormsModule, MatProgressSpinnerModule, MatCardModule, MatChipsModule, MatIconModule, MatButtonModule, CardsComponent, FooterComponent, MatProgressBarModule],
   templateUrl: './search-bar.component.html',
   styleUrl: './search-bar.component.css'
 })
@@ -43,6 +45,7 @@ export class SearchBarComponent implements OnInit, OnDestroy {
   public wine: Wine[] = [];
   public wineTasters: string[] = [];
   public wines: Wine[] = [];
+  isLoading = false;
 
   displayedBottles: any[] = [];
 
@@ -61,26 +64,39 @@ export class SearchBarComponent implements OnInit, OnDestroy {
     //console.log(this.wine)
     //console.log(this.wineTitles);
 
+
+
     if (event.key === 'Enter') {
       const searchBar = this.myInput.value.trim().toLowerCase();
-     // console.log( 'Input:', searchBar);
+
+
+
+      // console.log( 'Input:', searchBar);
 
       if (searchBar.length > 0) {
-        let filtered = this.wine.filter((wineFiltered) => {
-          const titleLower = wineFiltered.title.toLowerCase();
-        //  console.log(titleLower);
-        //  console.log(searchBar);
 
-         let matchs = titleLower.includes(searchBar);
-          console.log('matchs:', matchs)
-          return matchs;
-        })
-        this.wines = filtered;
+        this.isLoading = true;
+
+        setTimeout(() => {
+
+          let filtered = this.wine.filter((wineFiltered) => {
+            const titleLower = wineFiltered.title.toLowerCase();
+            //  console.log(titleLower);
+            //  console.log(searchBar);
+
+            let matchs = titleLower.includes(searchBar);
+            // console.log('matchs:', matchs)
+            return matchs;
+          })
+          this.wines = filtered;
+          this.isLoading = false;
+
+          this.myInput.reset('')
+
+        }, 2000);
       }
-      this.myInput.reset('')
     }
   }
-
 
   resetSearchInput() {
     if (this.wines.length) {
@@ -109,16 +125,8 @@ export class SearchBarComponent implements OnInit, OnDestroy {
     this.getBottlesDestroy1 = this.wineService.getAllBottles1().subscribe(data => {
       this.wine = data;
       // console.log(this.wine);
+    })
 
-
-      })
-
-
-
-    }
   }
-
-
-
-
+}
 
